@@ -1,0 +1,5 @@
+.git
+**/node_modules
+**/.types
+root/public/assets
+.env*

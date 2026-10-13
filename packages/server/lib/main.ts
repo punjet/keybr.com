@@ -22,10 +22,11 @@ if (cluster.isPrimary) {
     canonicalUrl: container.get("canonicalUrl"),
   });
   process.title = "keybr master process";
-  fork({ args: ["http"] });
-  fork({ args: ["http"] });
-  fork({ args: ["http"] });
-  fork({ args: ["http"] });
+  // Each worker is a separate Node process, small servers can use fewer.
+  const workers = Math.max(1, Number(process.env.SERVER_WORKERS) || 4);
+  for (let i = 0; i < workers; i++) {
+    fork({ args: ["http"] });
+  }
   fork({ args: ["ws"] });
 } else {
   const container = makeContainer();
