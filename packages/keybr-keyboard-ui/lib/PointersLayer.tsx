@@ -52,9 +52,17 @@ function pointers(keyboard: Keyboard, combo: KeyCombo | null): ReactNode[] {
     const shape = keyboard.getShape(combo.id);
     if (shape != null) {
       children.unshift(pointer(shape, styles.pointer));
+      const layer = keyboard.getShape("LayerNum");
+      if (layer != null && shape.row === "digit") {
+        // Split keyboards reach digits and symbols through a held layer key.
+        children.unshift(pointer(layer, styles.modifierPointer));
+      }
       if (combo.modifier.shift) {
-        const l = keyboard.getShape("ShiftLeft");
-        const r = keyboard.getShape("ShiftRight");
+        // Some split keyboards have a single shift key, use it for both hands.
+        const l =
+          keyboard.getShape("ShiftLeft") ?? keyboard.getShape("ShiftRight");
+        const r =
+          keyboard.getShape("ShiftRight") ?? keyboard.getShape("ShiftLeft");
         switch (shape.hand) {
           case "left":
             children.unshift(pointer(r, styles.modifierPointer));

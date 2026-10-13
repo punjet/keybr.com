@@ -9,8 +9,12 @@ import { GuidedLesson } from "./guided.ts";
 import { LessonKey } from "./key.ts";
 import { lessonProps } from "./settings.ts";
 
+// These tests describe the original algorithm, see adaptive.test.ts.
+const originalSettings = () =>
+  new Settings().set(lessonProps.guided.adaptive, false);
+
 test("provide key set", () => {
-  const settings = new Settings();
+  const settings = originalSettings();
   const keyboard = loadKeyboard(Layout.EN_US);
   const model = new FakePhoneticModel(["uno", "due", "tre"]);
   const lesson = new GuidedLesson(settings, keyboard, model, []);
@@ -147,7 +151,7 @@ test("provide key set", () => {
 });
 
 describe("generate text from a broken phonetic model", () => {
-  const settings = new Settings();
+  const settings = originalSettings();
   const keyboard = loadKeyboard(Layout.EN_US);
 
   it("should generate from empty words", () => {
@@ -192,7 +196,10 @@ describe("generate text from a broken phonetic model", () => {
 });
 
 test("generate text with pseudo words", () => {
-  const settings = new Settings().set(lessonProps.guided.naturalWords, false);
+  const settings = originalSettings().set(
+    lessonProps.guided.naturalWords,
+    false,
+  );
   const keyboard = loadKeyboard(Layout.EN_US);
   const model = new FakePhoneticModel(["uno", "due", "tre"]);
   const lesson = new GuidedLesson(settings, keyboard, model, []);
@@ -216,7 +223,10 @@ test("generate text with pseudo words", () => {
 });
 
 test("generate text with natural words", () => {
-  const settings = new Settings().set(lessonProps.guided.naturalWords, true);
+  const settings = originalSettings().set(
+    lessonProps.guided.naturalWords,
+    true,
+  );
   const keyboard = loadKeyboard(Layout.EN_US);
   const model = new FakePhoneticModel(["uno", "due", "tre"]);
   const lesson = new GuidedLesson(settings, keyboard, model, [
@@ -260,14 +270,14 @@ describe("unlock keys", () => {
   const keyboard = loadKeyboard(Layout.EN_US);
   const model = new FakePhoneticModel();
 
-  function recoverOff(settings = new Settings()) {
+  function recoverOff(settings = originalSettings()) {
     settings = settings.set(lessonProps.guided.recoverKeys, false);
 
     const lesson = new GuidedLesson(settings, keyboard, model, []);
     return { settings, lesson };
   }
 
-  function recoverOn(settings = new Settings()) {
+  function recoverOn(settings = originalSettings()) {
     settings = settings.set(lessonProps.guided.recoverKeys, true);
     const lesson = new GuidedLesson(settings, keyboard, model, []);
     return { settings, lesson };
@@ -633,7 +643,7 @@ describe("unlock keys", () => {
     describe("initial state", () => {
       it("recover off", () => {
         const { settings, lesson } = recoverOff(
-          new Settings().set(lessonProps.guided.alphabetSize, 1),
+          originalSettings().set(lessonProps.guided.alphabetSize, 1),
         );
 
         equal(
@@ -659,7 +669,7 @@ describe("unlock keys", () => {
 
       it("recover on", () => {
         const { settings, lesson } = recoverOn(
-          new Settings().set(lessonProps.guided.alphabetSize, 1),
+          originalSettings().set(lessonProps.guided.alphabetSize, 1),
         );
 
         equal(

@@ -11,6 +11,7 @@ import {
 } from "@keybr/widget";
 import { memo, type ReactNode, useMemo, useRef, useState } from "react";
 import { Presenter } from "./Presenter.tsx";
+import { loadBigrams, saveBigrams } from "./state/bigrams.ts";
 import {
   type LastLesson,
   LessonState,
@@ -71,8 +72,11 @@ function useLessonState(
 
   return useMemo(() => {
     // New lesson.
+    const family = keyboard.layout.family;
+    loadBigrams(family);
     const state = new LessonState(progress, (result, textInput) => {
       setKey(key + 1);
+      saveBigrams(family, textInput.steps, textInput.confusions);
       lastLessonRef.current = makeLastLesson(result, textInput.steps);
       onResultRef.current(result);
     });

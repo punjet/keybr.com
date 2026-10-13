@@ -1,5 +1,8 @@
+export * from "./adaptive.ts";
+export * from "./bigrams.ts";
 export * from "./books.ts";
 export * from "./code.ts";
+export * from "./confusions.ts";
 export * from "./customtext.ts";
 export * from "./dailygoal.ts";
 export * from "./guided.ts";
@@ -10,5 +13,6 @@ export * from "./lesson.ts";
 export * from "./lessontype.ts";
 export * from "./numbers.ts";
 export * from "./settings.ts";
+export * from "./symbols.ts";
 export * from "./target.ts";
 export * from "./wordlist.ts";

@@ -11,13 +11,19 @@ import {
   useMemo,
   useRef,
 } from "react";
-import { type KeyProps, makeKeyComponent } from "./Key.tsx";
+import {
+  type KeyProps,
+  makeKeyComponent,
+  makeLayerKeyComponent,
+} from "./Key.tsx";
+import { isLayerShape, layerBaseKeys, type LayerMode } from "./layers.ts";
 import { Surface } from "./shapes.tsx";
 
 export const KeyLayer = memo(function KeyLayer({
   depressedKeys = [],
   toggledKeys = [],
   showColors = false,
+  layer = "hide",
   onKeyHoverIn,
   onKeyHoverOut,
   onKeyClick,
@@ -25,13 +31,23 @@ export const KeyLayer = memo(function KeyLayer({
   readonly depressedKeys?: readonly KeyId[];
   readonly toggledKeys?: readonly KeyId[];
   readonly showColors?: boolean;
+  readonly layer?: LayerMode;
   readonly onKeyHoverIn?: (key: KeyId, elem: Element) => void;
   readonly onKeyHoverOut?: (key: KeyId, elem: Element) => void;
   readonly onKeyClick?: (key: KeyId, elem: Element) => void;
 }) {
   const keyboard = useKeyboard();
   const svgRef = useRef<SVGSVGElement>(null);
-  const children = useMemo(() => getKeyElements(keyboard), [keyboard]);
+  const children = useMemo(
+    () => getKeyElements(keyboard, layer),
+    [keyboard, layer],
+  );
+  const baseKeys = useMemo(() => layerBaseKeys(keyboard), [keyboard]);
+  // A key pressed on a held layer is the same physical key as the base one.
+  const depressed =
+    baseKeys.size > 0
+      ? depressedKeys.map((id) => baseKeys.get(id) ?? id)
+      : depressedKeys;
   return (
     <Surface
       ref={svgRef}
@@ -46,7 +62,7 @@ export const KeyLayer = memo(function KeyLayer({
       }}
     >
       {children.map((child) =>
-        child.select(depressedKeys, toggledKeys, showColors),
+        child.select(depressed, toggledKeys, showColors),
       )}
     </Surface>
   );
@@ -71,10 +87,21 @@ function relayEvent(
   }
 }
 
-function getKeyElements(keyboard: Keyboard): MemoizedKeyElements[] {
-  return [...keyboard.shapes.values()].map(
-    (shape) => new MemoizedKeyElements(keyboard, shape),
-  );
+function getKeyElements(
+  keyboard: Keyboard,
+  layer: LayerMode,
+): MemoizedKeyElements[] {
+  const base: MemoizedKeyElements[] = [];
+  const overlay: MemoizedKeyElements[] = [];
+  for (const shape of keyboard.shapes.values()) {
+    if (!isLayerShape(keyboard, shape)) {
+      base.push(new MemoizedKeyElements(keyboard, shape, false));
+    } else if (layer === "overlay") {
+      overlay.push(new MemoizedKeyElements(keyboard, shape, true));
+    }
+  }
+  // Layer legends go on top of the physical keys.
+  return [...base, ...overlay];
 }
 
 class MemoizedKeyElements {
@@ -91,8 +118,12 @@ class MemoizedKeyElements {
   constructor(
     readonly keyboard: Keyboard,
     readonly shape: KeyShape,
+    layer: boolean,
   ) {
-    const Component = makeKeyComponent(keyboard.layout.language, shape);
+    const Component = (layer ? makeLayerKeyComponent : makeKeyComponent)(
+      keyboard.layout.language,
+      shape,
+    );
     this.component = Component;
     this.state0 = (
       <Component

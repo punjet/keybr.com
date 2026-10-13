@@ -15,8 +15,6 @@
   "footer.discordLink.description": "Discord 서버에서 함께 소통해요.",
   "footer.emailLink.description": "info@keybr.com으로 소감과 제안을 보내요",
   "footer.githubLink.description": "keybr.com의 소스 코드는 Github에서 볼 수 있어요.",
-  "footer.removeAds.description": "프리미엄 계정을 구매해서 광고를 없애요.",
-  "footer.removeAds.label": "광고 없애기",
   "footer.translateLink.text": "번역",
   "help.example1": "<a>사례 1</a>, 30에서 70 WPM, 15일간 4시간 20분 연습한 결과.",
   "help.example2": "<a>사례 2</a>, 35에서 70 WPM, 12일간 2시간 20분 연습한 결과.",

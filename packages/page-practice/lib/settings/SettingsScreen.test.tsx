@@ -1,21 +1,25 @@
 import { test } from "node:test";
 import { FakeIntlProvider } from "@keybr/intl";
+import { KeyboardOptions } from "@keybr/keyboard";
 import { FakePhoneticModel } from "@keybr/phonetic-model";
 import { PhoneticModelLoader } from "@keybr/phonetic-model-loader";
 import { FakeResultContext, ResultFaker } from "@keybr/result";
-import { FakeSettingsContext } from "@keybr/settings";
+import { FakeSettingsContext, Settings } from "@keybr/settings";
 import { fireEvent, render } from "@testing-library/react";
 import { isNotNull } from "rich-assert";
 import { SettingsScreen } from "./SettingsScreen.tsx";
 
 const faker = new ResultFaker();
 
+// The fork defaults to Russian, but the fake model has Latin letters.
+const english = () => KeyboardOptions.default().save(new Settings());
+
 test("render", async () => {
   PhoneticModelLoader.loader = FakePhoneticModel.loader;
 
   const r = render(
     <FakeIntlProvider>
-      <FakeSettingsContext>
+      <FakeSettingsContext initialSettings={english()}>
         <FakeResultContext initialResults={faker.nextResultList(100)}>
           <SettingsScreen />
         </FakeResultContext>

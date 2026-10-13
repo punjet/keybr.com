@@ -643,3 +643,28 @@ function showChars({ chars }: TextInput) {
     })
     .join("|");
 }
+
+test("record the first wrong key at each position", () => {
+  const textInput = new TextInput("abcd", {
+    stopOnError: true,
+    forgiveErrors: false,
+    spaceSkipsWords: true,
+  });
+
+  textInput.appendChar(100, A, 100);
+  textInput.appendChar(200, X, 100); // Wrong key instead of "b".
+  textInput.appendChar(300, D, 100); // Garbage after the typo, not counted.
+  textInput.clearChar();
+  textInput.clearChar();
+  textInput.appendChar(400, B, 100);
+  textInput.appendChar(500, D, 100); // Wrong key instead of "c".
+
+  deepEqual(textInput.confusions, [
+    { expected: B, actual: X },
+    { expected: C, actual: D },
+  ]);
+
+  textInput.reset();
+
+  deepEqual(textInput.confusions, []);
+});

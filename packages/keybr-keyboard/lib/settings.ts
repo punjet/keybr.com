@@ -29,9 +29,10 @@ export enum Emulation {
 }
 
 export const keyboardProps = {
-  language: itemProp("keyboard.language", Language.ALL, Language.EN),
-  layout: xitemProp("keyboard.layout", Layout.ALL, Layout.EN_US),
-  geometry: itemProp("keyboard.geometry", Geometry.ALL, Geometry.ANSI_101),
+  // Personal fork defaults: Russian on the Eyelash Corne.
+  language: itemProp("keyboard.language", Language.ALL, Language.RU),
+  layout: xitemProp("keyboard.layout", Layout.ALL, Layout.RU_RU),
+  geometry: itemProp("keyboard.geometry", Geometry.ALL, Geometry.EYELASH_CORNE),
   zones: itemProp("keyboard.zones", ZoneMod.ALL, ZoneMod.STANDARD),
   emulation: enumProp("keyboard.emulation", Emulation, Emulation.Forward),
   colors: booleanProp("keyboard.colors", true),

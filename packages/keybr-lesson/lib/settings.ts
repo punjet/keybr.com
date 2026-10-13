@@ -20,6 +20,13 @@ export const lessonProps = {
       max: 1,
     }),
     recoverKeys: booleanProp("lesson.guided.recoverKeys", false),
+    adaptive: booleanProp("lesson.guided.adaptive", true),
+    stallLessons: numberProp("lesson.guided.stallLessons", 30, {
+      min: 0,
+      max: 200,
+    }),
+    skipLayerLetters: booleanProp("lesson.guided.skipLayerLetters", true),
+    autoTarget: booleanProp("lesson.guided.autoTarget", true),
   } as const,
   wordList: {
     wordListSize: numberProp("lesson.wordList.wordListSize", 1000, {
@@ -46,6 +53,12 @@ export const lessonProps = {
     lettersOnly: booleanProp("lesson.customText.lettersOnly", true),
     lowercase: booleanProp("lesson.customText.lowercase", true),
     randomize: booleanProp("lesson.customText.randomize", false),
+  } as const,
+  symbols: {
+    wordsBetween: numberProp("lesson.symbols.wordsBetween", 1, {
+      min: 0,
+      max: 3,
+    }),
   } as const,
   numbers: {
     benford: booleanProp("lesson.numbers.benford", true),

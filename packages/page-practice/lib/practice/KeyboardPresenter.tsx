@@ -1,6 +1,7 @@
 import { keyboardProps, useKeyboard } from "@keybr/keyboard";
 import {
   flatten,
+  getFrameSize,
   HeatmapLayer,
   KeyLayer,
   PointersLayer,
@@ -8,6 +9,7 @@ import {
   VirtualKeyboard,
   ZonesLayer,
 } from "@keybr/keyboard-ui";
+import { lessonProps, LessonType } from "@keybr/lesson";
 import { useSettings } from "@keybr/settings";
 import { type CodePoint } from "@keybr/unicode";
 import { withDeferred } from "@keybr/widget";
@@ -31,12 +33,20 @@ export const KeyboardPresenter = memo(function KeyboardPresenter({
   const keyboard = useKeyboard();
   const colors = settings.get(keyboardProps.colors);
   const pointers = settings.get(keyboardProps.pointers);
+  // Letters only: the 42 physical keys. Symbol lessons: layer legends added.
+  const layer = layerLessons.has(settings.get(lessonProps.type))
+    ? "overlay"
+    : "hide";
+  // Keep the key size of a standard 5-row board for taller geometries,
+  // instead of shrinking them.
+  const height = Math.max(16, (16 * getFrameSize(keyboard).height) / 228);
   return (
-    <VirtualKeyboard keyboard={keyboard} height="16rem">
+    <VirtualKeyboard keyboard={keyboard} height={`${height}rem`}>
       <KeyLayer
         depressedKeys={depressedKeys}
         toggledKeys={toggledKeys}
         showColors={colors}
+        layer={layer}
       />
       {focus && pointers && <PointersLayer suffix={suffix} />}
       {focus && lastLesson && (
@@ -55,5 +65,12 @@ export const KeyboardPresenter = memo(function KeyboardPresenter({
     </VirtualKeyboard>
   );
 });
+
+const layerLessons = new Set([
+  LessonType.SYMBOLS,
+  LessonType.NUMBERS,
+  LessonType.CODE,
+  LessonType.CUSTOM,
+]);
 
 export const DeferredKeyboardPresenter = withDeferred(KeyboardPresenter);

@@ -1,12 +1,15 @@
 import { Tasks } from "@keybr/lang";
-import { type LessonKey } from "@keybr/lesson";
+import { GuidedLesson, type LessonKey, lessonProps } from "@keybr/lesson";
 import {
+  AutoTargetRow,
+  ConfusionsRow,
   CurrentKeyRow,
   DailyGoalRow,
   GaugeRow,
   KeySetRow,
   names,
   StreakListRow,
+  WeakBigramsRow,
 } from "@keybr/lesson-ui";
 import { Popup, Portal } from "@keybr/widget";
 import { memo, type ReactNode, useEffect, useState } from "react";
@@ -15,7 +18,15 @@ import { KeyExtendedDetails } from "./KeyExtendedDetails.tsx";
 import { type LessonState } from "./state/index.ts";
 
 export const Indicators = memo(function Indicators({
-  state: { keyStatsMap, summaryStats, lessonKeys, streakList, dailyGoal },
+  state: {
+    lesson,
+    settings,
+    keyStatsMap,
+    summaryStats,
+    lessonKeys,
+    streakList,
+    dailyGoal,
+  },
 }: {
   readonly state: LessonState;
 }): ReactNode {
@@ -65,6 +76,17 @@ export const Indicators = memo(function Indicators({
         }}
       />
       <CurrentKeyRow lessonKeys={lessonKeys} names={names} />
+      {lesson instanceof GuidedLesson &&
+        settings.get(lessonProps.guided.adaptive) && (
+          <>
+            <WeakBigramsRow bigrams={lesson.weakBigrams(lessonKeys, 10)} />
+            <ConfusionsRow confusions={lesson.weakConfusions(lessonKeys)} />
+            <AutoTargetRow
+              targetSpeed={lesson.targetSpeed}
+              configured={settings.get(lessonProps.targetSpeed)}
+            />
+          </>
+        )}
       <StreakListRow streakList={streakList} names={names} />
       {dailyGoal.goal > 0 && (
         <DailyGoalRow dailyGoal={dailyGoal} names={names} />

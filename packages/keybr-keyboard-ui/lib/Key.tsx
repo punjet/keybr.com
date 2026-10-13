@@ -179,6 +179,60 @@ export function makeKeyComponent(
   }
 }
 
+/**
+ * A key of a held layer drawn as extra legends in the right part of the
+ * physical key it shares, without its own button.
+ */
+export function makeLayerKeyComponent(
+  { letterName }: Language,
+  shape: KeyShape,
+): FunctionComponent<KeyProps> {
+  const { isCodePoint } = KeyCharacters;
+  const { id, a, b } = shape;
+  const x = shape.x * keySize;
+  const y = shape.y * keySize;
+  const w = shape.w * keySize - keyGap;
+  const h = shape.h * keySize - keyGap;
+  const children: ReactNode[] = [];
+  if (isCodePoint(a)) {
+    children.push(
+      makeLabel(
+        { text: letterName(a), pos: [w - 7, h - 9], align: ["m", "m"] },
+        styles.layerSymbol,
+      ),
+    );
+  }
+  if (isCodePoint(b) && b !== a) {
+    children.push(
+      makeLabel(
+        { text: letterName(b), pos: [w - 7, 9], align: ["m", "m"] },
+        styles.layerSymbol,
+      ),
+    );
+  }
+  function LayerKeyComponent(props: KeyProps): ReactNode {
+    const { depressed, toggled, showColors, ...rest } = props;
+    void depressed;
+    void toggled;
+    void showColors;
+    return (
+      <svg
+        {...rest}
+        className={styles.layerKey}
+        x={x}
+        y={y}
+        width={w}
+        height={h}
+        data-layer-key={id}
+      >
+        {...children}
+      </svg>
+    );
+  }
+  LayerKeyComponent.displayName = `LayerKey[${id}]`;
+  return memo(LayerKeyComponent);
+}
+
 function makeLabel(label: LabelShape, className: ClassName = null): ReactNode {
   const { text, pos = [10, 20], align = ["s", "m"] } = label;
   const [x, y] = pos;

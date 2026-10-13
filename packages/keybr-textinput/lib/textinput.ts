@@ -23,6 +23,12 @@ export type Step = {
   readonly typo: boolean;
 };
 
+/** A wrong key typed instead of the expected one. */
+export type Confusion = {
+  readonly expected: CodePoint;
+  readonly actual: CodePoint;
+};
+
 export type StepListener = (step: Step) => void;
 
 const recoverBufferLength = 3;
@@ -38,6 +44,7 @@ export class TextInput {
   readonly #chars: readonly Char[];
   #steps: (Step & { readonly char: Char })[] = [];
   #garbage: (Step & { readonly char: Char })[] = [];
+  #confusions: Confusion[] = [];
   #typo!: boolean;
   #output!: { chars: Char[]; lines: LineList; remaining: Char[] };
 
@@ -59,6 +66,7 @@ export class TextInput {
   reset(): void {
     this.#steps = [];
     this.#garbage = [];
+    this.#confusions = [];
     this.#typo = false;
     this.#update();
   }
@@ -77,6 +85,11 @@ export class TextInput {
 
   get completed(): boolean {
     return this.pos === this.length;
+  }
+
+  /** The first wrong key typed at each position, not the garbage after it. */
+  get confusions(): readonly Confusion[] {
+    return this.#confusions;
   }
 
   get steps(): readonly Step[] {
@@ -103,10 +116,7 @@ export class TextInput {
   }: {
     readonly timeStamp: number;
     readonly inputType:
-      | "appendChar"
-      | "appendLineBreak"
-      | "clearChar"
-      | "clearWord";
+      "appendChar" | "appendLineBreak" | "clearChar" | "clearWord";
     readonly codePoint: CodePoint;
     readonly timeToType: number;
   }): Feedback {
@@ -186,6 +196,9 @@ export class TextInput {
       }
     }
 
+    if (!this.#typo && this.#garbage.length === 0) {
+      this.#confusions.push({ expected, actual: codePoint });
+    }
     this.#typo = true;
     if (!this.stopOnError || this.forgiveErrors) {
       if (this.#garbage.length < garbageBufferLength) {

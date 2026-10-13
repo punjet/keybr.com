@@ -8,6 +8,7 @@ export class LessonType implements EnumItem {
   static readonly CUSTOM = new LessonType("custom", TextType.NATURAL);
   static readonly CODE = new LessonType("code", TextType.CODE);
   static readonly NUMBERS = new LessonType("numbers", TextType.NUMBERS);
+  static readonly SYMBOLS = new LessonType("symbols", TextType.CODE);
   static readonly ALL = new Enum<LessonType>(
     LessonType.GUIDED,
     LessonType.WORDLIST,
@@ -15,6 +16,7 @@ export class LessonType implements EnumItem {
     LessonType.CUSTOM,
     LessonType.CODE,
     LessonType.NUMBERS,
+    LessonType.SYMBOLS,
   );
 
   private constructor(

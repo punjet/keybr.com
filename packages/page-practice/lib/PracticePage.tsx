@@ -1,21 +1,8 @@
-import { KeyboardOptions, Layout } from "@keybr/keyboard";
-import { Settings } from "@keybr/settings";
 import { ViewSwitch } from "@keybr/widget";
 import { views } from "./views.tsx";
 
-setDefaultLayout(window.navigator.language);
-
-function setDefaultLayout(localeId: string) {
-  const layout = Layout.findLayout(localeId);
-  if (layout != null) {
-    Settings.addDefaults(
-      KeyboardOptions.default()
-        .withLanguage(layout.language)
-        .withLayout(layout)
-        .save(new Settings()),
-    );
-  }
-}
+// Personal fork: the default layout is always Russian on the Eyelash Corne
+// (see keyboardProps), regardless of the browser locale.
 
 export function PracticePage() {
   return <ViewSwitch views={views} />;

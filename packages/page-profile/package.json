@@ -9,6 +9,7 @@
     "@keybr/chart": "*",
     "@keybr/intl": "*",
     "@keybr/keyboard": "*",
+    "@keybr/lang": "*",
     "@keybr/lesson": "*",
     "@keybr/lesson-ui": "*",
     "@keybr/math": "*",
@@ -17,6 +18,7 @@
     "@keybr/phonetic-model-loader": "*",
     "@keybr/result": "*",
     "@keybr/settings": "*",
+    "@keybr/textinput": "*",
     "@keybr/widget": "*"
   },
   "devDependencies": {},

@@ -28,6 +28,7 @@ export class Layout implements XEnumItem {
       Geometry.ANSI_101_FULL,
       Geometry.ISO_102,
       Geometry.ISO_102_FULL,
+      Geometry.EYELASH_CORNE,
       Geometry.MATRIX,
     ),
   );
@@ -538,6 +539,7 @@ export class Layout implements XEnumItem {
     /* language= */ Language.RU,
     /* emulate= */ true,
     /* geometries= */ new Enum(
+      Geometry.EYELASH_CORNE,
       Geometry.ISO_102,
       Geometry.ISO_102_FULL,
       Geometry.ANSI_101,

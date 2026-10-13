@@ -1,121 +1,217 @@
 # English
 
-Translated: 342 messages, 4749 words
+Translated: 353 messages, 4900 words
 
 Untranslated: 0 messages, 0 words
 
 # Afrikaans
 
-Translated: 339 messages, 4744 words
+Translated: 337 messages, 4735 words
 
-Untranslated: 3 messages, 5 words
+Untranslated: 15 messages, 140 words
 
+* *Цель*
 * *Letters*
 * *Volume:*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Arabic
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Bulgarian
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Bangla
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Catalan
 
-Translated: 310 messages, 3556 words
+Translated: 308 messages, 3547 words
 
-Untranslated: 30 messages, 1171 words
+Untranslated: 42 messages, 1306 words
 
+* *Цель*
 * *Errors*
 * *Zones:*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
 * *Sound theme:*
 * *Explain charts*
+* *Символы и слои*
 * *Key sounds only*
 * *Relative Accuracy*
 * *Repeat each word:*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
 * *The previous keys are also above the target speed*
+* *Import typing data previously downloaded in JSON format.*
 * *Generate lessons that resemble the specified programming lan...*
-* *Practice punctuation characters that are specific to a progr...*
-* *This is a histogram of the accuracies of all users, and your...*
-* *Show color coding of the keyboard zones. Use this option to ...*
-* *Generate typing lessons from the text of a book. All keys ar...*
-* *Highlight a key that must to be pressed next. Use this optio...*
-* *<p>This indicator shows the current subset of letters used t...*
-* *Repeat each word a number of times. Type a word for the firs...*
-* *See how accurate you type relative to other users. The highe...*
-* *Adjust the amount of basic punctuation characters added to t...*
-* *<p>This indicator can also be used to predict the remaining ...*
-* *<p>This is the accuracy indicator and the difference from th...*
 * ...
 
 # Czech
 
-Translated: 338 messages, 4742 words
+Translated: 336 messages, 4733 words
 
-Untranslated: 4 messages, 7 words
+Untranslated: 16 messages, 142 words
 
+* *Цель*
 * *Font:*
 * *Syntax:*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
 * *Sound theme:*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Danish
 
-Translated: 331 messages, 4689 words
+Translated: 329 messages, 4680 words
 
-Untranslated: 9 messages, 38 words
+Untranslated: 21 messages, 173 words
 
+* *Цель*
 * *Score*
 * *Layout*
 * *Layout:*
 * *Layouts*
+* *Промахи*
 * *Position*
+* *Биграммы*
 * *Multiplayer*
+* *Upload data*
 * *Download data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
 * *Repeat each word a number of times. Type a word for the firs...*
+* ...
 
 # German
 
-Translated: 339 messages, 4744 words
+Translated: 337 messages, 4735 words
 
-Untranslated: 3 messages, 5 words
+Untranslated: 15 messages, 140 words
 
+* *Цель*
+* *Промахи*
 * *Position*
+* *Биграммы*
 * *Alphabet:*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Greek
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Esperanto
 
-Translated: 77 messages, 1126 words
+Translated: 75 messages, 1117 words
 
-Untranslated: 258 messages, 3565 words
+Untranslated: 270 messages, 3700 words
 
 * *GO!*
 * *Copy*
@@ -123,6 +219,7 @@ Untranslated: 258 messages, 3565 words
 * *Help*
 * *Next*
 * *Time*
+* *Цель*
 * *Books*
 * *Close*
 * *Font:*
@@ -136,71 +233,97 @@ Untranslated: 258 messages, 3565 words
 * *Lessons*
 * *Lessons*
 * *Not set*
-* *Numbers*
 * ...
 
 # Spanish
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Estonian
 
-Translated: 338 messages, 4743 words
+Translated: 336 messages, 4734 words
 
-Untranslated: 4 messages, 6 words
+Untranslated: 16 messages, 141 words
 
 * *GO!*
+* *Цель*
 * *Font:*
+* *Промахи*
 * *Progress*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Persian
 
-Translated: 295 messages, 2959 words
+Translated: 293 messages, 2950 words
 
-Untranslated: 45 messages, 1768 words
+Untranslated: 57 messages, 1903 words
 
+* *Цель*
 * *Books*
 * *Zones:*
 * *Syntax:*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
 * *Sound theme:*
 * *Top accuracy*
 * *Explain charts*
+* *Символы и слои*
 * *Key sounds only*
 * *Repeat each word:*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
 * *Keyboard hardware emulates layout*
-* *Circle color: {label1} – hit count, {label2} – miss count.*
-* *Practice punctuation characters that are specific to a progr...*
-* *Show color coding of the keyboard zones. Use this option to ...*
-* *Bar color: {label1} – hit count, {label2} – miss count, {lab...*
-* *Generate typing lessons from the text of a book. All keys ar...*
-* *Horizontal axis: lesson number. Vertical axis: typing speed ...*
-* *<a>Benford’s law</a> is an observation that in many real-lif...*
-* *You don’t have any accuracy streaks. Consider completing a l...*
-* *These are the typing assists which help your preserve your c...*
-* *Horizontal axis: lesson number. Vertical axis: {label1} – ty...*
-* *Horizontal axis: lesson number. Vertical axis: {label1} – ty...*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
 * ...
 
 # Finnish
 
-Translated: 208 messages, 2284 words
+Translated: 206 messages, 2275 words
 
-Untranslated: 128 messages, 2409 words
+Untranslated: 140 messages, 2544 words
 
 * *GO!*
 * *Time*
+* *Цель*
 * *Layouts*
 * *Metrics*
 * *Not set*
 * *Syntax:*
+* *Промахи*
 * *Position*
 * *Practice*
 * *Settings*
+* *Биграммы*
 * *Top speed*
 * *Uncertain*
 * *Characters*
@@ -208,17 +331,14 @@ Untranslated: 128 messages, 2409 words
 * *High Scores*
 * *Multiplayer*
 * *Smoothness:*
-* *Play sounds:*
-* *Average speed*
-* *Benford’s law*
-* *Download data*
+* *Upload data*
 * ...
 
 # Faroese
 
-Translated: 44 messages, 583 words
+Translated: 42 messages, 574 words
 
-Untranslated: 290 messages, 4097 words
+Untranslated: 302 messages, 4232 words
 
 * *GO!*
 * *Copy*
@@ -226,6 +346,7 @@ Untranslated: 290 messages, 4097 words
 * *Help*
 * *Next*
 * *Time*
+* *Цель*
 * *Books*
 * *Close*
 * *Font:*
@@ -239,80 +360,151 @@ Untranslated: 290 messages, 4097 words
 * *Zones:*
 * *Account*
 * *Layout:*
-* *Layouts*
 * ...
 
 # French
 
-Translated: 333 messages, 4544 words
+Translated: 331 messages, 4535 words
 
-Untranslated: 9 messages, 205 words
+Untranslated: 21 messages, 340 words
 
+* *Цель*
 * *Zones:*
 * *Options*
 * *Volume:*
+* *Промахи*
 * *Position*
+* *Биграммы*
 * *Alphabet:*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
 * *Above are listed the longest continuous sequences of lessons...*
 * *When you focus on a new key, it is very likely that the spee...*
 * *The target speed is used to measure the confidence level and...*
+* ...
 
 # Irish
 
-Translated: 337 messages, 4735 words
+Translated: 335 messages, 4726 words
 
-Untranslated: 5 messages, 14 words
+Untranslated: 17 messages, 149 words
 
+* *Цель*
 * *Zones:*
+* *Промахи*
+* *Биграммы*
 * *Smoothness:*
+* *Upload data*
 * *Sound theme:*
 * *M|T|W|T|F|S|S*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Hebrew
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Croatian
 
-Translated: 337 messages, 4740 words
+Translated: 335 messages, 4731 words
 
-Untranslated: 5 messages, 9 words
+Untranslated: 17 messages, 144 words
 
+* *Цель*
 * *Font:*
 * *Reset*
+* *Промахи*
+* *Биграммы*
 * *Multiplayer*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
 * *Premium account price:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Hungarian
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Indonesian
 
-Translated: 339 messages, 4744 words
+Translated: 337 messages, 4735 words
 
-Untranslated: 3 messages, 5 words
+Untranslated: 15 messages, 140 words
 
 * *GO!*
+* *Цель*
 * *Volume:*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Icelandic
 
-Translated: 95 messages, 1742 words
+Translated: 93 messages, 1733 words
 
-Untranslated: 240 messages, 2949 words
+Untranslated: 252 messages, 3084 words
 
 * *GO!*
 * *Copy*
@@ -320,6 +512,7 @@ Untranslated: 240 messages, 2949 words
 * *Help*
 * *Next*
 * *Time*
+* *Цель*
 * *Books*
 * *Close*
 * *Font:*
@@ -333,40 +526,64 @@ Untranslated: 240 messages, 2949 words
 * *Account*
 * *Layouts*
 * *Lessons*
-* *Metrics*
 * ...
 
 # Italian
 
-Translated: 334 messages, 4738 words
+Translated: 332 messages, 4729 words
 
-Untranslated: 7 messages, 9 words
+Untranslated: 19 messages, 144 words
 
+* *Цель*
 * *Font:*
 * *Layout*
 * *Account*
 * *Layout:*
 * *Layouts*
 * *Volume:*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Japanese
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Korean
 
-Translated: 145 messages, 1297 words
+Translated: 143 messages, 1288 words
 
-Untranslated: 195 messages, 3430 words
+Untranslated: 207 messages, 3565 words
 
 * *Copy*
 * *Done*
 * *Next*
+* *Цель*
 * *Books*
 * *Close*
 * *Font:*
@@ -380,45 +597,44 @@ Untranslated: 195 messages, 3430 words
 * *Preview*
 * *Syntax:*
 * *Volume:*
+* *Промахи*
 * *All keys*
 * *Chapters*
-* *Keyboard*
-* *Previous*
 * ...
 
 # Lithuanian
 
-Translated: 305 messages, 3388 words
+Translated: 303 messages, 3379 words
 
-Untranslated: 34 messages, 1330 words
+Untranslated: 46 messages, 1465 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
 * *Accuracy Streaks*
 * *Relative Accuracy*
 * *No accuracy streaks.*
+* *Слов между символами:*
 * *Practice numbers only.*
+* *Без букв со слоя (ё, ъ на Corne)*
 * *The difference from the average value.*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
 * *Download all your typing data in JSON format.*
+* *Import typing data previously downloaded in JSON format.*
 * *The detailed statistics regarding your learning progress.*
 * *Permanently delete all of your typing data and reset statist...*
-* *This is a histogram of the accuracies of all users, and your...*
-* *Adjust the number of words in the lesson text. Making lesson...*
-* *Show color coding of the keyboard zones. Use this option to ...*
-* *Are you sure you want to delete all data and reset your prof...*
-* *You don’t have any accuracy streaks. Consider completing a l...*
-* *Highlight a key that must to be pressed next. Use this optio...*
-* *<p>This indicator shows the current subset of letters used t...*
-* *Repeat each word a number of times. Type a word for the firs...*
-* *See how accurate you type relative to other users. The highe...*
-* *Manually unlock the remaining letters. Use this option if wa...*
-* *Adjust the amount of capital letters added to the lesson tex...*
 * ...
 
 # Mongolian
 
 Translated: 16 messages, 378 words
 
-Untranslated: 316 messages, 4273 words
+Untranslated: 326 messages, 4399 words
 
 * *GO!*
 * *Copy*
@@ -427,6 +643,7 @@ Untranslated: 316 messages, 4273 words
 * *Next*
 * *Time*
 * *User*
+* *Цель*
 * *Books*
 * *Close*
 * *Font:*
@@ -439,23 +656,25 @@ Untranslated: 316 messages, 4273 words
 * *Digits*
 * *Errors*
 * *Layout*
-* *Resend*
 * ...
 
 # Norwegian Bokmål
 
-Translated: 211 messages, 2446 words
+Translated: 209 messages, 2437 words
 
-Untranslated: 126 messages, 2250 words
+Untranslated: 138 messages, 2385 words
 
 * *Done*
 * *Help*
+* *Цель*
 * *Books*
 * *Font:*
 * *Speed*
 * *Account*
+* *Промахи*
 * *Accuracy*
 * *Settings*
+* *Биграммы*
 * *Alphabet:*
 * *Examples:*
 * *All sounds*
@@ -464,179 +683,295 @@ Untranslated: 126 messages, 2250 words
 * *Custom text*
 * *Daily goal:*
 * *Smoothness:*
-* *Whitespace:*
-* *Cursor shape:*
-* *Learning rate*
-* *No whitespace*
+* *Upload data*
 * ...
 
 # Nepali
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Dutch
 
-Translated: 333 messages, 4736 words
+Translated: 331 messages, 4727 words
 
-Untranslated: 8 messages, 11 words
+Untranslated: 20 messages, 146 words
 
+* *Цель*
 * *Score*
 * *Zones:*
 * *Account*
 * *Letters*
 * *Volume:*
+* *Промахи*
+* *Биграммы*
 * *Multiplayer*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
 * *Premium account*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Polish
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Brazilian Portuguese
 
-Translated: 338 messages, 4743 words
+Translated: 336 messages, 4734 words
 
-Untranslated: 4 messages, 6 words
+Untranslated: 16 messages, 141 words
 
+* *Цель*
 * *Layout*
 * *Layout:*
 * *Layouts*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # European Portuguese
 
-Translated: 319 messages, 4618 words
+Translated: 317 messages, 4609 words
 
-Untranslated: 21 messages, 109 words
+Untranslated: 33 messages, 244 words
 
+* *Цель*
 * *Books*
 * *Layout*
 * *Zones:*
 * *Layout:*
 * *Layouts*
 * *Volume:*
+* *Промахи*
+* *Биграммы*
 * *Top score!*
 * *Top speed!*
+* *Upload data*
 * *Sound theme:*
 * *Top accuracy*
 * *Explain charts*
+* *Символы и слои*
 * *Key sounds only*
 * *Average accuracy*
 * *Relative Accuracy*
 * *Repeat each word:*
-* *Daily goal reached!*
-* *New letter unlocked!*
-* *Premium account price:*
-* *This is a histogram of the accuracies of all users, and your...*
-* *Repeat each word a number of times. Type a word for the firs...*
 * ...
 
 # Romanian
 
-Translated: 298 messages, 3587 words
+Translated: 296 messages, 3578 words
 
-Untranslated: 37 messages, 1118 words
+Untranslated: 49 messages, 1253 words
 
+* *Цель*
 * *Font:*
 * *Layout*
 * *Zones:*
 * *Account*
 * *Layout:*
 * *Layouts*
+* *Промахи*
+* *Биграммы*
 * *Translate*
 * *Multiplayer*
+* *Upload data*
 * *Sound theme:*
 * *Top accuracy*
 * *Forgive errors*
+* *Символы и слои*
 * *Key sounds only*
 * *Average accuracy*
 * *Relative Accuracy*
 * *Repeat each word:*
-* *Start in {countDown}*
-* *Premium account price:*
-* *Enter full-screen mode.*
-* *<h1>Connecting to Server...</h1><p>Establishing connection t...*
-* *<p>The precise meaning of each indicator color is given in t...*
 * ...
 
 # Russian
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Slovak
 
-Translated: 340 messages, 4745 words
+Translated: 338 messages, 4736 words
 
-Untranslated: 2 messages, 4 words
+Untranslated: 14 messages, 139 words
 
+* *Цель*
 * *Syntax:*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Slovenian
 
-Translated: 340 messages, 4745 words
+Translated: 338 messages, 4736 words
 
-Untranslated: 2 messages, 4 words
+Untranslated: 14 messages, 139 words
 
+* *Цель*
 * *Font:*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Albanian
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Swedish
 
-Translated: 338 messages, 4743 words
+Translated: 336 messages, 4734 words
 
-Untranslated: 4 messages, 6 words
+Untranslated: 16 messages, 141 words
 
+* *Цель*
 * *Layout*
 * *Layout:*
 * *Syntax:*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Thai
 
-Translated: 329 messages, 4635 words
+Translated: 327 messages, 4626 words
 
-Untranslated: 11 messages, 92 words
+Untranslated: 23 messages, 227 words
 
+* *Цель*
 * *Zones:*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
 * *Sound theme:*
 * *Top accuracy*
+* *Символы и слои*
 * *Key sounds only*
 * *Average accuracy*
 * *Relative Accuracy*
 * *Repeat each word:*
+* *Слов между символами:*
 * *Premium account price:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
 * *This is a histogram of the accuracies of all users, and your...*
-* *Repeat each word a number of times. Type a word for the firs...*
-* *See how accurate you type relative to other users. The highe...*
+* ...
 
 # Turkish
 
-Translated: 227 messages, 2126 words
+Translated: 225 messages, 2117 words
 
-Untranslated: 110 messages, 2568 words
+Untranslated: 122 messages, 2703 words
 
+* *Цель*
 * *Books*
 * *Font:*
 * *Zones:*
@@ -644,59 +979,118 @@ Untranslated: 110 messages, 2568 words
 * *Preview*
 * *Sign-In*
 * *Syntax:*
+* *Промахи*
+* *Биграммы*
 * *Alphabet:*
 * *Box cursor*
 * *Line cursor*
 * *Source code*
+* *Upload data*
 * *Whitespace:*
 * *Block cursor*
 * *Top accuracy*
 * *No whitespace*
 * *Smooth cursor*
-* *Bar whitespace*
-* *Emulate layout*
-* *Explain charts*
-* *Highlight keys*
 * ...
 
 # Ukrainian
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Vietnamese
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Simplified Chinese
 
-Translated: 340 messages, 4739 words
+Translated: 338 messages, 4730 words
 
-Untranslated: 2 messages, 10 words
+Untranslated: 14 messages, 145 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
 * *M|T|W|T|F|S|S*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Traditional Chinese
 
-Translated: 341 messages, 4746 words
+Translated: 339 messages, 4737 words
 
-Untranslated: 1 messages, 3 words
+Untranslated: 13 messages, 138 words
 
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Chinese (Taiwan)
 
-Translated: 340 messages, 4745 words
+Translated: 338 messages, 4736 words
 
-Untranslated: 2 messages, 4 words
+Untranslated: 14 messages, 139 words
 
 * *GO!*
+* *Цель*
+* *Промахи*
+* *Биграммы*
+* *Upload data*
+* *Символы и слои*
 * *Key sounds only*
+* *Слов между символами:*
+* *Без букв со слоя (ё, ъ на Corne)*
+* *Открыть букву при застое через уроков:*
+* *Растущая цель после открытия всех букв*
+* *Адаптивный алгоритм (скорость + точность)*
+* *Import typing data previously downloaded in JSON format.*
+* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*

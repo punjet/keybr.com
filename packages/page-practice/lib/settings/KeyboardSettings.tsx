@@ -283,6 +283,7 @@ const KeyboardPreview = memo(function KeyboardPreview(): ReactNode {
         depressedKeys={depressedKeys}
         toggledKeys={ModifierState.modifiers}
         showColors={colors}
+        layer="overlay"
       />
       {pointers && <PointersPreview />}
     </VirtualKeyboard>

@@ -152,3 +152,79 @@ export const DailyGoalRow = memo(function DailyGoalRow({
     </div>
   );
 });
+
+export const WeakBigramsRow = memo(function WeakBigramsRow({
+  bigrams,
+}: {
+  bigrams: readonly (readonly [string, number])[];
+}) {
+  const { formatMessage } = useIntl();
+  return (
+    <div className={styles.row}>
+      <Name
+        className={styles.name}
+        name={formatMessage({
+          id: "t_Weak_bigrams",
+          defaultMessage: "Биграммы",
+        })}
+      />
+      <span className={styles.value}>
+        {bigrams.length > 0
+          ? bigrams.map(([bigram]) => bigram).join(" · ")
+          : "—"}
+      </span>
+    </div>
+  );
+});
+
+export const ConfusionsRow = memo(function ConfusionsRow({
+  confusions,
+}: {
+  confusions: readonly (readonly [expected: string, actual: string])[];
+}) {
+  const { formatMessage } = useIntl();
+  return (
+    <div className={styles.row}>
+      <Name
+        className={styles.name}
+        name={formatMessage({
+          id: "t_Confusions",
+          defaultMessage: "Промахи",
+        })}
+      />
+      <span className={styles.value}>
+        {confusions.length > 0
+          ? confusions
+              .map(([expected, actual]) => `${expected}→${actual}`)
+              .join(" · ")
+          : "—"}
+      </span>
+    </div>
+  );
+});
+
+export const AutoTargetRow = memo(function AutoTargetRow({
+  targetSpeed,
+  configured,
+}: {
+  targetSpeed: number;
+  configured: number;
+}) {
+  const { formatMessage } = useIntl();
+  return (
+    <div className={styles.row}>
+      <Name
+        className={styles.name}
+        name={formatMessage({
+          id: "t_Auto_target",
+          defaultMessage: "Цель",
+        })}
+      />
+      <span className={styles.value}>
+        {targetSpeed > configured
+          ? `${targetSpeed} зн/мин (${Math.round(targetSpeed / 5)} WPM), растёт вместе с тобой`
+          : `${configured} зн/мин (${Math.round(configured / 5)} WPM), заданная`}
+      </span>
+    </div>
+  );
+});

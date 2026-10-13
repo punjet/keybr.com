@@ -15,8 +15,6 @@
   "footer.discordLink.description": "Suhtle meie Discord serveris.",
   "footer.emailLink.description": "Saada oma kommentaarid ja ettepanekud aadressil info@keybr.com",
   "footer.githubLink.description": "Keybr.com’i lähtekood on saadaval Githubis.",
-  "footer.removeAds.description": "Reklaamide eemaldamiseks osta preemium-konto.",
-  "footer.removeAds.label": "Eemalda reklaamid",
   "footer.translateLink.description": "Aita meil tõlkida keybr.com sinu keelde.",
   "footer.translateLink.text": "Tõlgi",
   "help.example1": "<a>Näide 1</a>, 30-lt 70-le sõnale minutis (WPM) pärast 4 tundi ja 20 minutit harjutamist 15 päeva jooksul.",

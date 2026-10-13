@@ -15,8 +15,6 @@
   "footer.discordLink.description": "พูดคุยบน Discord server",
   "footer.emailLink.description": "ส่งความเห็น และคำแนะนำของคุณได้ที่ info@keybr.com",
   "footer.githubLink.description": "เราวางโค้ดของ keybr.com ไว้บน Github",
-  "footer.removeAds.description": "ซื้อบัญชีแบบพรีเมี่ยมเพื่อปิดโฆษณา",
-  "footer.removeAds.label": "ปิดโฆษณา",
   "footer.translateLink.description": "ช่วยเราแปล keybr.com เป็นภาษาของคุณ",
   "footer.translateLink.text": "ช่วยแปรภาษา",
   "help.example1": "<a>ตัวอย่างที่ 1</a> จาก 30 คำต่อนาที เป็น 70 คำต่อนาที หลังจากฝึกพิมพ์อยู่ 4 ชั่วโมง 20 นาที ตามหลักสูตร 15 วัน",

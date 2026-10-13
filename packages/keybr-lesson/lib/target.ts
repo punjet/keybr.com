@@ -5,8 +5,8 @@ import { lessonProps } from "./settings.ts";
 export class Target {
   readonly targetSpeed: number;
 
-  constructor(settings: Settings) {
-    this.targetSpeed = settings.get(lessonProps.targetSpeed);
+  constructor(settings: Settings, targetSpeed?: number) {
+    this.targetSpeed = targetSpeed ?? settings.get(lessonProps.targetSpeed);
   }
 
   confidence(timeToType: number): number;

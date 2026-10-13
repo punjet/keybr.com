@@ -15,8 +15,6 @@
   "footer.discordLink.description": "Razgovarajte na našem Discord poslužitelju.",
   "footer.emailLink.description": "Pošaljite svoje komentare i prijedloge info@keybr.com",
   "footer.githubLink.description": "Izvorni kod keybr.com dostupan je na Githubu.",
-  "footer.removeAds.description": "Kupite premium račun da biste uklonili oglase.",
-  "footer.removeAds.label": "Ukloni oglase",
   "footer.translateLink.description": "Pomozite nam da keybr.com prevedemo na vaš jezik.",
   "footer.translateLink.text": "Prevedi",
   "help.example1": "<a>Primjer 1</a>, od 30 do 70 WPM nakon 4 sata i 20 minuta vježbanja tijekom 15 dana.",

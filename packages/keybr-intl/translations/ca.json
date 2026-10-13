@@ -15,8 +15,6 @@
   "footer.discordLink.description": "Comunicar al nostre servidor de Discord.",
   "footer.emailLink.description": "Envieu els vostres comentaris i suggeriments a info@keybr.com",
   "footer.githubLink.description": "El codi font de keybr.com està disponible a Github.",
-  "footer.removeAds.description": "Compreu un compte premium per eliminar anuncis.",
-  "footer.removeAds.label": "Elimina anuncis",
   "footer.translateLink.description": "Ajuda’ns a traduir keybr.com al teu idioma.",
   "footer.translateLink.text": "Tradueix",
   "help.example1": "<a>Exemple 1</a>, de 30 a 70 PPM després de 4 hores i 20 minuts de pràctica en el transcurs de 15 dies.",

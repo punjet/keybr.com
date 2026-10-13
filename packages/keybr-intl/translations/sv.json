@@ -15,8 +15,6 @@
   "footer.discordLink.description": "Diskutera på vår Discord server.",
   "footer.emailLink.description": "Skicka dina kommentarer och förslag till info@keybr.com",
   "footer.githubLink.description": "Källkoden till keybr.com finns på Github.",
-  "footer.removeAds.description": "Köp ett premiumkonto för att ta bort annonser.",
-  "footer.removeAds.label": "Ta Bort Annonser",
   "footer.translateLink.description": "Hjälp oss att översätta keybr.com till ditt språk.",
   "footer.translateLink.text": "Översätt",
   "help.example1": "<a>Exempel 1</a>, från 30 till 70 OPM efter 4 timmar och 20 minuter av tränande under loppet av 15 dagar.",

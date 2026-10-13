@@ -15,8 +15,6 @@
   "footer.discordLink.description": "Beszélgessetek a Discordunkon.",
   "footer.emailLink.description": "Küldje el észrevételeit és javaslatait a info@keybr.com címre",
   "footer.githubLink.description": "A keybr.com forráskódja a Githubon elérhető.",
-  "footer.removeAds.description": "Vásároljon prémium fiókot a hirdetések eltávolításához.",
-  "footer.removeAds.label": "Hirdetések eltávolítása",
   "footer.translateLink.description": "Segítsen a keybr.com saját nyelvére történő fordításában.",
   "footer.translateLink.text": "Fordít",
   "help.example1": "<a>1. példa</a>, 30-ról 70 WPM-re 4 óra 20 perc gyakorlás után 15 nap eltelte után.",
