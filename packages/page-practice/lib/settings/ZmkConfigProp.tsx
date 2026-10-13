@@ -39,7 +39,12 @@ export function ZmkConfigProp(): ReactNode {
         let name = "ZMK";
         for (const file of files) {
           const text = await file.text();
-          if (file.name.endsWith(".json")) {
+          // A physical layout: ZMK Studio / QMK JSON or the board devicetree
+          // (`<board>-layouts.dtsi`) with a zmk,physical-layout node.
+          if (
+            file.name.endsWith(".json") ||
+            text.includes("zmk,physical-layout")
+          ) {
             physical = text;
           } else {
             keymap = text;
@@ -50,7 +55,8 @@ export function ZmkConfigProp(): ReactNode {
           throw new Error(
             formatMessage({
               id: "settings.zmkConfig.noKeymap",
-              defaultMessage: "Choose a keymap file (.keymap) and optionally a physical layout file (.json)",
+              defaultMessage:
+                "Choose a keymap file (.keymap) and optionally a physical layout file (.json)",
             }),
           );
         }
@@ -87,9 +93,14 @@ export function ZmkConfigProp(): ReactNode {
               {formatMessage(
                 {
                   id: "settings.zmkConfig.summary",
-                  defaultMessage: "{name}: {keys} keys",
+                  defaultMessage:
+                    "{name}: {keys} keys{skipped, plural, =0 {} other {, # skipped (joystick, encoders)}}",
                 },
-                { name: config.name, keys: geometry.keys },
+                {
+                  name: config.name,
+                  keys: geometry.keys,
+                  skipped: geometry.skipped,
+                },
               )}
               {geometry.layers.map(({ name, activator, keys }) => (
                 <span key={name}>
@@ -104,11 +115,12 @@ export function ZmkConfigProp(): ReactNode {
                   )}
                 </span>
               ))}
-              {!config.physical &&
+              {geometry.guessed &&
                 " " +
                   formatMessage({
                     id: "settings.zmkConfig.noPhysical",
-                    defaultMessage: "(no physical layout file, keys on a grid from the keymap)",
+                    defaultMessage:
+                      "(positions guessed from the keymap: add the physical layout file for exact positions)",
                   })}
             </span>
           ) : (
@@ -159,7 +171,7 @@ export function ZmkConfigProp(): ReactNode {
         <Description>
           <FormattedMessage
             id="settings.zmkConfig.description"
-            defaultMessage="Choose the keymap file (.keymap) of your ZMK config, optionally together with the physical layout file (.json, from ZMK Studio or QMK info.json): then keys get their real positions, and joysticks and encoders are skipped. A “ZMK config” geometry appears for every layout: the base layer gives the keys, and characters from held layers are shown on the same keys in symbol, number and code lessons, with a hint which key to hold. The config is stored in this browser."
+            defaultMessage="Choose the keymap file (.keymap) of your ZMK config, ideally together with the physical layout file: the devicetree file of the board (its name ends with -layouts.dtsi) or a JSON file from ZMK Studio or QMK (info.json). Then keys get their real positions. Joysticks and encoders between the halves are skipped. A “ZMK config” geometry appears for every layout: the base layer gives the keys, and characters from held layers are shown on the same keys in symbol, number and code lessons, with a hint which key to hold. The config is stored in this browser."
           />
         </Description>
       </Explainer>
@@ -170,7 +182,7 @@ export function ZmkConfigProp(): ReactNode {
 function pickFiles(callback: (files: File[]) => void) {
   const input = document.createElement("input");
   input.setAttribute("type", "file");
-  input.setAttribute("accept", ".keymap,.dtsi,.json,text/plain");
+  input.setAttribute("accept", ".keymap,.dtsi,.overlay,.json,text/plain");
   input.setAttribute("multiple", "");
   input.style.display = "none";
   input.addEventListener("change", () => {

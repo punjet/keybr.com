@@ -75,6 +75,12 @@ test("3x5 corne with home row mods and numeric layers", () => {
   const g = makeZmkGeometry(parsed);
   const { dict } = g;
   equal(g.keys, 36);
+  // Without a physical layout the halves get a gap between them.
+  isTrue(g.guessed);
+  isTrue(dict["KeyY"].x - dict["KeyT"].x > 1);
+  // Thumbs sit under the inner columns of their half.
+  isTrue(dict["Escape"].x < dict["KeyT"].x + 1);
+  isTrue(dict["Enter"].x >= dict["KeyY"].x);
   // Home row mods type their tap key.
   isTrue(dict["KeyA"] != null && dict["KeyA"].layer == null);
   isTrue(dict["Semicolon"] != null);
@@ -113,6 +119,20 @@ test("3x5 corne with home row mods and numeric layers", () => {
       ["Nav", 1],
     ],
   );
+});
+
+test("a row-staggered board is not split", () => {
+  const rows = (lengths: number[]) =>
+    lengths
+      .map((n) => Array.from({ length: n }, () => "&kp Q").join(" "))
+      .join("\n");
+  const g = makeZmkGeometry(
+    parseZmkKeymap(
+      `/ { keymap { compatible = "zmk,keymap"; base { bindings = <\n${rows([14, 14, 13, 12, 8])}\n>; }; }; };`,
+    ),
+  );
+  equal(g.keys, 61);
+  equal(g.skipped, 0);
 });
 
 test("a physical layout with a wrong key count is ignored", () => {

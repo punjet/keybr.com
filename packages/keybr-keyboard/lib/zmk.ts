@@ -58,6 +58,8 @@ export type ZmkGeometry = {
   }[];
   readonly keys: number;
   readonly skipped: number;
+  /** No physical layout was given, positions are guessed from the keymap. */
+  readonly guessed: boolean;
 };
 
 export class ZmkError extends Error {}
@@ -450,6 +452,43 @@ function layerName(keymap: ZmkKeymap, ref: string | null): string | null {
 
 // --- Geometry ---
 
+/**
+ * Reads the first `zmk,physical-layout` node of a devicetree file, like
+ * `boards/shields/<board>/<board>-layouts.dtsi`, in hundredths of a key.
+ */
+export function parsePhysicalDtsi(text: string): PhysicalKey[] | null {
+  const source = stripComments(text);
+  const node = findBlock(source, /compatible\s*=\s*"zmk,physical-layout"/);
+  if (node == null) {
+    return null;
+  }
+  const keys: PhysicalKey[] = [];
+  const num = String.raw`\(?\s*(-?\d+)\s*\)?`;
+  const re = new RegExp(
+    String.raw`&key_physical_attrs\s+` +
+      [num, num, num, num].join(String.raw`\s+`),
+    "g",
+  );
+  for (const [, w, h, x, y] of node.matchAll(re)) {
+    keys.push({
+      w: Number(w) / 100,
+      h: Number(h) / 100,
+      x: Number(x) / 100,
+      y: Number(y) / 100,
+    });
+  }
+  return keys.length > 0 ? keys : null;
+}
+
+/** A physical layout file: ZMK Studio / QMK JSON or ZMK devicetree. */
+export function parsePhysicalFile(text: string): PhysicalKey[] | null {
+  const trimmed = text.trimStart();
+  if (trimmed.startsWith("{") || trimmed.startsWith("[")) {
+    return parsePhysicalLayout(JSON.parse(trimmed));
+  }
+  return parsePhysicalDtsi(text);
+}
+
 export function parsePhysicalLayout(json: unknown): PhysicalKey[] | null {
   const list = findKeyList(json);
   if (list == null) {
@@ -496,14 +535,14 @@ export function makeZmkGeometry(
 ): ZmkGeometry {
   const [base] = keymap.layers;
   const count = base.bindings.length;
-  const positions =
-    physical != null && physical.length === count
-      ? physical
-      : gridPositions(base.rows);
-  // Labeled positions of a physical layout are encoders and joysticks.
+  const guessed = physical == null || physical.length !== count;
+  const positions = guessed ? gridPositions(base.rows) : physical;
+  // Joysticks and encoders: labeled positions of a physical layout, and keys
+  // in the gap between the two halves of a split keyboard.
+  const extras = gapExtras(positions);
   const kept: number[] = [];
   for (let i = 0; i < count; i++) {
-    if (positions[i].label == null) {
+    if (positions[i].label == null && !extras.has(i)) {
       kept.push(i);
     }
   }
@@ -579,6 +618,7 @@ export function makeZmkGeometry(
     layers,
     keys: kept.length,
     skipped: count - kept.length,
+    guessed,
   };
 }
 
@@ -589,17 +629,91 @@ function capLabel(name: string): string {
     : (name.split(/[^\p{L}\p{N}]+/u)[0] || name).slice(0, 5);
 }
 
-/** Positions from the line structure of the base layer source. */
+/**
+ * Positions from the line structure of the base layer source.
+ *
+ * A split keyboard is recognized by its thumb row (see below): then the first
+ * and the last `half` keys of every letter row are the two halves, keys in
+ * between are joysticks or encoders, and thumbs go under the inner columns.
+ */
 function gridPositions(rows: readonly number[]): PhysicalKey[] {
+  const letters = rows.slice(0, -1);
+  const thumbs = rows[rows.length - 1];
+  const half = Math.floor(Math.min(...letters) / 2);
+  // Equal even letter rows with a shorter thumb row, or extra keys in the
+  // middle of the letter rows with a thumb row no wider than a half.
+  const even = letters.every((l) => l === letters[0] && l % 2 === 0);
+  const split =
+    letters.length >= 2 &&
+    half >= 3 &&
+    ((even && thumbs < letters[0]) || thumbs <= half);
   const positions: PhysicalKey[] = [];
-  const widest = Math.max(...rows);
-  rows.forEach((length, row) => {
-    const offset = (widest - length) / 2;
+  if (!split) {
+    const widest = Math.max(...rows);
+    rows.forEach((length, row) => {
+      const offset = (widest - length) / 2;
+      for (let col = 0; col < length; col++) {
+        positions.push({ x: offset + col, y: row, row });
+      }
+    });
+    return positions;
+  }
+  letters.forEach((length, row) => {
     for (let col = 0; col < length; col++) {
-      positions.push({ x: offset + col, y: row, row });
+      if (col < half) {
+        positions.push({ x: col, y: row, row });
+      } else if (col >= length - half) {
+        positions.push({ x: half + 1 + (col - (length - half)), y: row, row });
+      } else {
+        positions.push({ x: half, y: row, row, label: "extra" });
+      }
     }
   });
+  const left = Math.ceil(thumbs / 2);
+  for (let col = 0; col < thumbs; col++) {
+    const x = col < left ? half - left + col : half + 1 + (col - left);
+    positions.push({ x, y: letters.length, row: letters.length });
+  }
   return positions;
+}
+
+/**
+ * Keys standing in the gap between the two halves of a split keyboard
+ * (a joystick, an encoder), found row by row from the physical positions:
+ * the halves are runs of adjacent keys from the left and the right edges.
+ */
+function gapExtras(positions: readonly PhysicalKey[]): Set<number> {
+  const extras = new Set<number>();
+  const rowOf = (k: PhysicalKey) => k.row ?? Math.round(k.y);
+  const rows = new Map<number, number[]>();
+  positions.forEach((k, i) => {
+    rows.set(rowOf(k), [...(rows.get(rowOf(k)) ?? []), i]);
+  });
+  const lastRow = Math.max(...rows.keys());
+  for (const [row, list] of rows) {
+    if (row === lastRow && lastRow >= 3) {
+      continue; // Thumb keys are spread out on purpose.
+    }
+    const sorted = list
+      .filter((i) => positions[i].label == null)
+      .sort((a, b) => positions[a].x - positions[b].x);
+    const adjacent = (a: number, b: number) =>
+      Math.abs(positions[b].x - positions[a].x) <= 1.15;
+    let l = 0;
+    while (l + 1 < sorted.length && adjacent(sorted[l], sorted[l + 1])) {
+      l++;
+    }
+    let r = sorted.length - 1;
+    while (r - 1 > l && adjacent(sorted[r - 1], sorted[r])) {
+      r--;
+    }
+    if (l >= 1 && sorted.length - r >= 2 && r - l > 1) {
+      for (let i = l + 1; i < r; i++) {
+        extras.add(sorted[i]);
+      }
+    }
+  }
+  return extras;
 }
 
 function assignZones(
@@ -667,9 +781,7 @@ let loaded = false;
 export function buildZmkConfig(config: ZmkConfig): ZmkGeometry {
   const keymap = parseZmkKeymap(config.keymap);
   const physical =
-    config.physical != null
-      ? parsePhysicalLayout(JSON.parse(config.physical))
-      : null;
+    config.physical != null ? parsePhysicalFile(config.physical) : null;
   return makeZmkGeometry(keymap, physical, config.name);
 }
 

@@ -1,6 +1,6 @@
 # English
 
-Translated: 364 messages, 5082 words
+Translated: 364 messages, 5107 words
 
 Untranslated: 0 messages, 0 words
 
@@ -8,7 +8,7 @@ Untranslated: 0 messages, 0 words
 
 Translated: 337 messages, 4735 words
 
-Untranslated: 21 messages, 284 words
+Untranslated: 21 messages, 303 words
 
 * *Remove*
 * *Target*
@@ -27,16 +27,16 @@ Untranslated: 21 messages, 284 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * ...
 
 # Arabic
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -53,16 +53,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Bulgarian
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -79,16 +79,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Bangla
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -105,16 +105,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Catalan
 
 Translated: 308 messages, 3547 words
 
-Untranslated: 48 messages, 1450 words
+Untranslated: 48 messages, 1469 words
 
 * *Errors*
 * *Remove*
@@ -142,7 +142,7 @@ Untranslated: 48 messages, 1450 words
 
 Translated: 336 messages, 4733 words
 
-Untranslated: 22 messages, 286 words
+Untranslated: 22 messages, 305 words
 
 * *Font:*
 * *Remove*
@@ -162,15 +162,15 @@ Untranslated: 22 messages, 286 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *(positions guessed from the keymap: add the physical layout ...*
 * ...
 
 # Danish
 
 Translated: 329 messages, 4680 words
 
-Untranslated: 27 messages, 317 words
+Untranslated: 27 messages, 336 words
 
 * *Score*
 * *Layout*
@@ -198,7 +198,7 @@ Untranslated: 27 messages, 317 words
 
 Translated: 337 messages, 4735 words
 
-Untranslated: 21 messages, 284 words
+Untranslated: 21 messages, 303 words
 
 * *Remove*
 * *Target*
@@ -217,16 +217,16 @@ Untranslated: 21 messages, 284 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * ...
 
 # Greek
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -243,16 +243,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Esperanto
 
 Translated: 75 messages, 1117 words
 
-Untranslated: 276 messages, 3844 words
+Untranslated: 276 messages, 3863 words
 
 * *GO!*
 * *Copy*
@@ -280,7 +280,7 @@ Untranslated: 276 messages, 3844 words
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -297,16 +297,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Estonian
 
 Translated: 336 messages, 4734 words
 
-Untranslated: 22 messages, 285 words
+Untranslated: 22 messages, 304 words
 
 * *GO!*
 * *Font:*
@@ -326,15 +326,15 @@ Untranslated: 22 messages, 285 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *(positions guessed from the keymap: add the physical layout ...*
 * ...
 
 # Persian
 
 Translated: 293 messages, 2950 words
 
-Untranslated: 63 messages, 2047 words
+Untranslated: 63 messages, 2066 words
 
 * *Books*
 * *Remove*
@@ -362,7 +362,7 @@ Untranslated: 63 messages, 2047 words
 
 Translated: 206 messages, 2275 words
 
-Untranslated: 146 messages, 2688 words
+Untranslated: 146 messages, 2707 words
 
 * *GO!*
 * *Time*
@@ -390,7 +390,7 @@ Untranslated: 146 messages, 2688 words
 
 Translated: 42 messages, 574 words
 
-Untranslated: 308 messages, 4376 words
+Untranslated: 308 messages, 4395 words
 
 * *GO!*
 * *Copy*
@@ -418,7 +418,7 @@ Untranslated: 308 messages, 4376 words
 
 Translated: 331 messages, 4535 words
 
-Untranslated: 27 messages, 484 words
+Untranslated: 27 messages, 503 words
 
 * *Remove*
 * *Target*
@@ -446,7 +446,7 @@ Untranslated: 27 messages, 484 words
 
 Translated: 335 messages, 4726 words
 
-Untranslated: 23 messages, 293 words
+Untranslated: 23 messages, 312 words
 
 * *Remove*
 * *Target*
@@ -467,14 +467,14 @@ Untranslated: 23 messages, 293 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
 * ...
 
 # Hebrew
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -491,16 +491,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Croatian
 
 Translated: 335 messages, 4731 words
 
-Untranslated: 23 messages, 288 words
+Untranslated: 23 messages, 307 words
 
 * *Font:*
 * *Reset*
@@ -521,14 +521,14 @@ Untranslated: 23 messages, 288 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
 * ...
 
 # Hungarian
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -545,16 +545,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Indonesian
 
 Translated: 337 messages, 4735 words
 
-Untranslated: 21 messages, 284 words
+Untranslated: 21 messages, 303 words
 
 * *GO!*
 * *Remove*
@@ -573,16 +573,16 @@ Untranslated: 21 messages, 284 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * ...
 
 # Icelandic
 
 Translated: 93 messages, 1733 words
 
-Untranslated: 258 messages, 3228 words
+Untranslated: 258 messages, 3247 words
 
 * *GO!*
 * *Copy*
@@ -610,7 +610,7 @@ Untranslated: 258 messages, 3228 words
 
 Translated: 332 messages, 4729 words
 
-Untranslated: 25 messages, 288 words
+Untranslated: 25 messages, 307 words
 
 * *Font:*
 * *Layout*
@@ -638,7 +638,7 @@ Untranslated: 25 messages, 288 words
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -655,16 +655,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Korean
 
 Translated: 143 messages, 1288 words
 
-Untranslated: 213 messages, 3709 words
+Untranslated: 213 messages, 3728 words
 
 * *Copy*
 * *Done*
@@ -692,7 +692,7 @@ Untranslated: 213 messages, 3709 words
 
 Translated: 303 messages, 3379 words
 
-Untranslated: 52 messages, 1609 words
+Untranslated: 52 messages, 1628 words
 
 * *Remove*
 * *Target*
@@ -720,7 +720,7 @@ Untranslated: 52 messages, 1609 words
 
 Translated: 16 messages, 378 words
 
-Untranslated: 332 messages, 4543 words
+Untranslated: 332 messages, 4562 words
 
 * *GO!*
 * *Copy*
@@ -748,7 +748,7 @@ Untranslated: 332 messages, 4543 words
 
 Translated: 209 messages, 2437 words
 
-Untranslated: 144 messages, 2529 words
+Untranslated: 144 messages, 2548 words
 
 * *Done*
 * *Help*
@@ -776,7 +776,7 @@ Untranslated: 144 messages, 2529 words
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -793,16 +793,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Dutch
 
 Translated: 331 messages, 4727 words
 
-Untranslated: 26 messages, 290 words
+Untranslated: 26 messages, 309 words
 
 * *Score*
 * *Remove*
@@ -830,7 +830,7 @@ Untranslated: 26 messages, 290 words
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -847,16 +847,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Brazilian Portuguese
 
 Translated: 336 messages, 4734 words
 
-Untranslated: 22 messages, 285 words
+Untranslated: 22 messages, 304 words
 
 * *Layout*
 * *Remove*
@@ -876,15 +876,15 @@ Untranslated: 22 messages, 285 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *(positions guessed from the keymap: add the physical layout ...*
 * ...
 
 # European Portuguese
 
 Translated: 317 messages, 4609 words
 
-Untranslated: 39 messages, 388 words
+Untranslated: 39 messages, 407 words
 
 * *Books*
 * *Layout*
@@ -912,7 +912,7 @@ Untranslated: 39 messages, 388 words
 
 Translated: 296 messages, 3578 words
 
-Untranslated: 55 messages, 1397 words
+Untranslated: 55 messages, 1416 words
 
 * *Font:*
 * *Layout*
@@ -938,7 +938,7 @@ Untranslated: 55 messages, 1397 words
 
 # Russian
 
-Translated: 361 messages, 5069 words
+Translated: 361 messages, 5094 words
 
 Untranslated: 3 messages, 13 words
 
@@ -950,7 +950,7 @@ Untranslated: 3 messages, 13 words
 
 Translated: 338 messages, 4736 words
 
-Untranslated: 20 messages, 283 words
+Untranslated: 20 messages, 302 words
 
 * *Remove*
 * *Target*
@@ -968,16 +968,16 @@ Untranslated: 20 messages, 283 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Slovenian
 
 Translated: 338 messages, 4736 words
 
-Untranslated: 20 messages, 283 words
+Untranslated: 20 messages, 302 words
 
 * *Font:*
 * *Remove*
@@ -995,16 +995,16 @@ Untranslated: 20 messages, 283 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Albanian
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -1021,16 +1021,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Swedish
 
 Translated: 336 messages, 4734 words
 
-Untranslated: 22 messages, 285 words
+Untranslated: 22 messages, 304 words
 
 * *Layout*
 * *Remove*
@@ -1050,15 +1050,15 @@ Untranslated: 22 messages, 285 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *(positions guessed from the keymap: add the physical layout ...*
 * ...
 
 # Thai
 
 Translated: 327 messages, 4626 words
 
-Untranslated: 29 messages, 371 words
+Untranslated: 29 messages, 390 words
 
 * *Remove*
 * *Target*
@@ -1086,7 +1086,7 @@ Untranslated: 29 messages, 371 words
 
 Translated: 225 messages, 2117 words
 
-Untranslated: 128 messages, 2847 words
+Untranslated: 128 messages, 2866 words
 
 * *Books*
 * *Font:*
@@ -1114,7 +1114,7 @@ Untranslated: 128 messages, 2847 words
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -1131,16 +1131,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Vietnamese
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -1157,16 +1157,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Simplified Chinese
 
 Translated: 338 messages, 4730 words
 
-Untranslated: 20 messages, 289 words
+Untranslated: 20 messages, 308 words
 
 * *Remove*
 * *Target*
@@ -1184,16 +1184,16 @@ Untranslated: 20 messages, 289 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Traditional Chinese
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 19 messages, 282 words
+Untranslated: 19 messages, 301 words
 
 * *Remove*
 * *Target*
@@ -1210,16 +1210,16 @@ Untranslated: 19 messages, 282 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*
 
 # Chinese (Taiwan)
 
 Translated: 338 messages, 4736 words
 
-Untranslated: 20 messages, 283 words
+Untranslated: 20 messages, 302 words
 
 * *GO!*
 * *Remove*
@@ -1237,7 +1237,7 @@ Untranslated: 20 messages, 283 words
 * *Unlock the next letter after a stall of lessons:*
 * *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *(no physical layout file, keys on a grid from the keymap)*
 * *Choose a keymap file (.keymap) and optionally a physical lay...*
-* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *(positions guessed from the keymap: add the physical layout ...*
+* *Choose the keymap file (.keymap) of your ZMK config, ideally...*
 * *Key confidence takes both speed and errors into account. The...*

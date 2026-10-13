@@ -8,6 +8,7 @@ import { loadKeyboard } from "./load.ts";
 import {
   getZmkGeometry,
   makeZmkGeometry,
+  parsePhysicalFile,
   parsePhysicalLayout,
   parseZmkKeymap,
   setZmkConfig,
@@ -75,8 +76,27 @@ test("build the geometry with the physical layout", () => {
 test("build the geometry without the physical layout", () => {
   const keymap = parseZmkKeymap(fixture("eyelash_corne.keymap"));
   const geometry = makeZmkGeometry(keymap);
-  equal(geometry.keys, 48);
+  // The split is recognized from the keymap: the middle keys are skipped.
+  equal(geometry.keys, 42);
+  equal(geometry.skipped, 6);
+  isTrue(geometry.guessed);
   isTrue(geometry.dict["Digit1"] != null);
+});
+
+test("read the physical layout from the board devicetree", () => {
+  const physical = parsePhysicalFile(fixture("eyelash_corne-layouts.dtsi"));
+  equal(physical!.length, 48);
+  deepEqual(physical![0], { w: 1, h: 1, x: 0, y: 0.37 });
+  deepEqual(physical![45], { w: 1, h: 1, x: 11, y: 3.12 });
+  const geometry = makeZmkGeometry(
+    parseZmkKeymap(fixture("eyelash_corne.keymap")),
+    physical,
+  );
+  // No labels in devicetree: the joystick and the encoder are found by the gap.
+  equal(geometry.keys, 42);
+  equal(geometry.guessed, false);
+  equal(parsePhysicalFile(fixture("eyelash_corne.json"))!.length, 48);
+  equal(parsePhysicalFile("/ { };"), null);
 });
 
 test("reject a file without a keymap", () => {
