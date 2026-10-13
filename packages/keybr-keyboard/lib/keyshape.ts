@@ -42,6 +42,10 @@ export class KeyShape {
   readonly zones: readonly ZoneId[];
   /** Whether this is a homing key. */
   readonly homing: boolean;
+  /** The held layer this key belongs to, null for the base layer. */
+  readonly layer: string | null;
+  /** The layer activated while this key is held, if any. */
+  readonly activates: string | null;
   /** The code point produced by this key. */
   readonly a: Character | null;
   /** The code point produced by this key. */
@@ -62,7 +66,8 @@ export class KeyShape {
     geometryConf: GeometryDict["keyId"],
     characterConf: CharacterDict["keyId"] | null,
   ) {
-    const { x, y, w, h, labels, shape, zones, homing } = geometryConf;
+    const { x, y, w, h, labels, shape, zones, homing, layer, activates } =
+      geometryConf;
     const [a, b, c, d] = characterConf ?? [];
     this.id = id;
     this.x = x;
@@ -73,6 +78,8 @@ export class KeyShape {
     this.shape = shape ?? null;
     this.zones = zones ?? [];
     this.homing = homing ?? false;
+    this.layer = layer ?? null;
+    this.activates = activates ?? null;
     this.a = a ?? null;
     this.b = b ?? null;
     this.c = c ?? null;

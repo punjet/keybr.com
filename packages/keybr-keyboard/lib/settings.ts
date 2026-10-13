@@ -9,6 +9,7 @@ import { Geometry, ZoneMod } from "./geometry.ts";
 import { Language } from "./language.ts";
 import { Layout } from "./layout.ts";
 import { nullMod } from "./mod.ts";
+import { getZmkGeometry } from "./zmk.ts";
 
 export enum Emulation {
   /**
@@ -29,10 +30,9 @@ export enum Emulation {
 }
 
 export const keyboardProps = {
-  // Personal fork defaults: Russian on the Eyelash Corne.
-  language: itemProp("keyboard.language", Language.ALL, Language.RU),
-  layout: xitemProp("keyboard.layout", Layout.ALL, Layout.RU_RU),
-  geometry: itemProp("keyboard.geometry", Geometry.ALL, Geometry.EYELASH_CORNE),
+  language: itemProp("keyboard.language", Language.ALL, Language.EN),
+  layout: xitemProp("keyboard.layout", Layout.ALL, Layout.EN_US),
+  geometry: itemProp("keyboard.geometry", Geometry.ALL, Geometry.ANSI_101),
   zones: itemProp("keyboard.zones", ZoneMod.ALL, ZoneMod.STANDARD),
   emulation: enumProp("keyboard.emulation", Emulation, Emulation.Forward),
   colors: booleanProp("keyboard.colors", true),
@@ -103,7 +103,11 @@ export class KeyboardOptions {
   }
 
   selectableGeometries(): Geometry[] {
-    return [...this.#layout.geometries];
+    const list = [...this.#layout.geometries];
+    if (getZmkGeometry() != null) {
+      list.unshift(Geometry.ZMK);
+    }
+    return list;
   }
 
   selectableZones(): ZoneMod[] {
@@ -127,7 +131,11 @@ export class KeyboardOptions {
 
   withLayout(layout: Layout): KeyboardOptions {
     if (this.#language.script === layout.language.script) {
-      const geometry = Geometry.first(layout.geometries);
+      // An uploaded ZMK config fits any layout, keep it.
+      const geometry =
+        this.#geometry === Geometry.ZMK && getZmkGeometry() != null
+          ? Geometry.ZMK
+          : Geometry.first(layout.geometries);
       const zones = ZoneMod.first(geometry.zones);
       return new KeyboardOptions(
         this.#language, //
@@ -141,7 +149,10 @@ export class KeyboardOptions {
   }
 
   withGeometry(geometry: Geometry): KeyboardOptions {
-    if (this.#layout.geometries.has(geometry)) {
+    if (
+      this.#layout.geometries.has(geometry) ||
+      (geometry === Geometry.ZMK && getZmkGeometry() != null)
+    ) {
       const zones = ZoneMod.first(geometry.zones);
       return new KeyboardOptions(
         this.#language, //

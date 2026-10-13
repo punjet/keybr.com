@@ -115,6 +115,14 @@ export class Geometry implements EnumItem {
     new Enum(),
   );
 
+  /** Built at runtime from an uploaded ZMK keymap, see `zmk.ts`. */
+  static readonly ZMK = new Geometry(
+    "zmk", //
+    "ZMK config",
+    "matrix",
+    new Enum(),
+  );
+
   static readonly ALL = new Enum<Geometry>(
     Geometry.ANSI_101,
     Geometry.ANSI_101_FULL,
@@ -128,6 +136,7 @@ export class Geometry implements EnumItem {
     Geometry.JAPANESE_106_FULL,
     Geometry.MATRIX,
     Geometry.EYELASH_CORNE,
+    Geometry.ZMK,
   );
 
   static first(items: Iterable<Geometry>): Geometry {

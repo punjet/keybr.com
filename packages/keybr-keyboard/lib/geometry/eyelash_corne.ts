@@ -2,7 +2,7 @@ import { type GeometryDict } from "../types.ts";
 
 // Eyelash Corne 3x6+3 split, ZMK keymap from punjet/zmk-new_corne (mac-aerospace).
 // 42 keys like the real board. Keys of the NUM layer (held left FN thumb)
-// share positions with base keys and are marked by the "digit" row zone.
+// share positions with base keys.
 export const EYELASH_CORNE: GeometryDict = {
   Tab: {
     x: 0,
@@ -201,6 +201,7 @@ export const EYELASH_CORNE: GeometryDict = {
     y: 3.6,
     labels: [{ text: "FN" }],
     zones: ["thumb", "left", "bottom"],
+    activates: "NUM",
   },
   Space: {
     x: 5,
@@ -229,76 +230,91 @@ export const EYELASH_CORNE: GeometryDict = {
   Digit1: {
     x: 1,
     y: 0.375,
-    zones: ["pinky", "left", "digit"],
+    zones: ["pinky", "left", "top"],
+    layer: "NUM",
   },
   Digit2: {
     x: 2,
     y: 0.125,
-    zones: ["ring", "left", "digit"],
+    zones: ["ring", "left", "top"],
+    layer: "NUM",
   },
   Digit3: {
     x: 3,
     y: 0,
-    zones: ["middle", "left", "digit"],
+    zones: ["middle", "left", "top"],
+    layer: "NUM",
   },
   Digit4: {
     x: 4,
     y: 0.125,
-    zones: ["leftIndex", "left", "digit"],
+    zones: ["leftIndex", "left", "top"],
+    layer: "NUM",
   },
   Digit5: {
     x: 5,
     y: 0.25,
-    zones: ["leftIndex", "left", "digit"],
+    zones: ["leftIndex", "left", "top"],
+    layer: "NUM",
   },
   Digit6: {
     x: 7,
     y: 0.25,
-    zones: ["rightIndex", "right", "digit"],
+    zones: ["rightIndex", "right", "top"],
+    layer: "NUM",
   },
   Digit7: {
     x: 8,
     y: 0.125,
-    zones: ["rightIndex", "right", "digit"],
+    zones: ["rightIndex", "right", "top"],
+    layer: "NUM",
   },
   Digit8: {
     x: 9,
     y: 0,
-    zones: ["middle", "right", "digit"],
+    zones: ["middle", "right", "top"],
+    layer: "NUM",
   },
   Digit9: {
     x: 10,
     y: 0.125,
-    zones: ["ring", "right", "digit"],
+    zones: ["ring", "right", "top"],
+    layer: "NUM",
   },
   Digit0: {
     x: 11,
     y: 0.375,
-    zones: ["pinky", "right", "digit"],
+    zones: ["pinky", "right", "top"],
+    layer: "NUM",
   },
   Backslash: {
     x: 12,
     y: 0.375,
-    zones: ["pinky", "right", "digit"],
+    zones: ["pinky", "right", "top"],
+    layer: "NUM",
   },
   Backquote: {
     x: 1,
     y: 1.375,
-    zones: ["pinky", "left", "digit"],
+    zones: ["pinky", "left", "home"],
+    layer: "NUM",
   },
   BracketRight: {
     x: 3,
     y: 1,
-    zones: ["middle", "left", "digit"],
+    zones: ["middle", "left", "home"],
+    layer: "NUM",
   },
   Minus: {
     x: 4,
     y: 1.125,
-    zones: ["leftIndex", "left", "digit"],
+    zones: ["leftIndex", "left", "home"],
+    layer: "NUM",
   },
   Equal: {
     x: 5,
     y: 1.25,
-    zones: ["leftIndex", "left", "digit"],
+    zones: ["leftIndex", "left", "home"],
+    layer: "NUM",
   },
 };

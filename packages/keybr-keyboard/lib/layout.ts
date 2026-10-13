@@ -539,12 +539,12 @@ export class Layout implements XEnumItem {
     /* language= */ Language.RU,
     /* emulate= */ true,
     /* geometries= */ new Enum(
-      Geometry.EYELASH_CORNE,
       Geometry.ISO_102,
       Geometry.ISO_102_FULL,
       Geometry.ANSI_101,
       Geometry.ANSI_101_FULL,
       Geometry.MATRIX,
+      Geometry.EYELASH_CORNE,
     ),
   );
   static readonly RU_STATICA_3X5 = new Layout(

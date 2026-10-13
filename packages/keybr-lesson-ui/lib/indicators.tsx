@@ -165,7 +165,7 @@ export const WeakBigramsRow = memo(function WeakBigramsRow({
         className={styles.name}
         name={formatMessage({
           id: "t_Weak_bigrams",
-          defaultMessage: "Биграммы",
+          defaultMessage: "Bigrams",
         })}
       />
       <span className={styles.value}>
@@ -189,7 +189,7 @@ export const ConfusionsRow = memo(function ConfusionsRow({
         className={styles.name}
         name={formatMessage({
           id: "t_Confusions",
-          defaultMessage: "Промахи",
+          defaultMessage: "Mistypes",
         })}
       />
       <span className={styles.value}>
@@ -217,13 +217,25 @@ export const AutoTargetRow = memo(function AutoTargetRow({
         className={styles.name}
         name={formatMessage({
           id: "t_Auto_target",
-          defaultMessage: "Цель",
+          defaultMessage: "Target",
         })}
       />
       <span className={styles.value}>
         {targetSpeed > configured
-          ? `${targetSpeed} зн/мин (${Math.round(targetSpeed / 5)} WPM), растёт вместе с тобой`
-          : `${configured} зн/мин (${Math.round(configured / 5)} WPM), заданная`}
+          ? formatMessage(
+              {
+                id: "indicator.autoTarget.growing",
+                defaultMessage: "{cpm} chars/min ({wpm} WPM), grows with you",
+              },
+              { cpm: targetSpeed, wpm: Math.round(targetSpeed / 5) },
+            )
+          : formatMessage(
+              {
+                id: "indicator.autoTarget.fixed",
+                defaultMessage: "{cpm} chars/min ({wpm} WPM), configured",
+              },
+              { cpm: configured, wpm: Math.round(configured / 5) },
+            )}
       </span>
     </div>
   );

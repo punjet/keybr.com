@@ -1,6 +1,6 @@
 # English
 
-Translated: 353 messages, 4900 words
+Translated: 364 messages, 5082 words
 
 Untranslated: 0 messages, 0 words
 
@@ -8,210 +8,251 @@ Untranslated: 0 messages, 0 words
 
 Translated: 337 messages, 4735 words
 
-Untranslated: 15 messages, 140 words
+Untranslated: 21 messages, 284 words
 
-* *Цель*
+* *Remove*
+* *Target*
+* *Bigrams*
 * *Letters*
 * *Volume:*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* ...
 
 # Arabic
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Bulgarian
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Bangla
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Catalan
 
 Translated: 308 messages, 3547 words
 
-Untranslated: 42 messages, 1306 words
+Untranslated: 48 messages, 1450 words
 
-* *Цель*
 * *Errors*
+* *Remove*
+* *Target*
 * *Zones:*
-* *Промахи*
-* *Биграммы*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
+* *ZMK config:*
 * *Sound theme:*
 * *Explain charts*
-* *Символы и слои*
 * *Key sounds only*
+* *Symbols & layers*
 * *Relative Accuracy*
 * *Repeat each word:*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
 * *The previous keys are also above the target speed*
-* *Import typing data previously downloaded in JSON format.*
-* *Generate lessons that resemble the specified programming lan...*
 * ...
 
 # Czech
 
 Translated: 336 messages, 4733 words
 
-Untranslated: 16 messages, 142 words
+Untranslated: 22 messages, 286 words
 
-* *Цель*
 * *Font:*
+* *Remove*
+* *Target*
+* *Bigrams*
 * *Syntax:*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Upload data*
+* *ZMK config:*
 * *Sound theme:*
-* *Символы и слои*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* ...
 
 # Danish
 
 Translated: 329 messages, 4680 words
 
-Untranslated: 21 messages, 173 words
+Untranslated: 27 messages, 317 words
 
-* *Цель*
 * *Score*
 * *Layout*
+* *Remove*
+* *Target*
+* *Bigrams*
 * *Layout:*
 * *Layouts*
-* *Промахи*
+* *Mistypes*
 * *Position*
-* *Биграммы*
 * *Multiplayer*
 * *Upload data*
+* *ZMK config:*
 * *Download data*
-* *Символы и слои*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
-* *Import typing data previously downloaded in JSON format.*
-* *Repeat each word a number of times. Type a word for the firs...*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
 * ...
 
 # German
 
 Translated: 337 messages, 4735 words
 
-Untranslated: 15 messages, 140 words
+Untranslated: 21 messages, 284 words
 
-* *Цель*
-* *Промахи*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Position*
-* *Биграммы*
 * *Alphabet:*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* ...
 
 # Greek
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Esperanto
 
 Translated: 75 messages, 1117 words
 
-Untranslated: 270 messages, 3700 words
+Untranslated: 276 messages, 3844 words
 
 * *GO!*
 * *Copy*
@@ -219,7 +260,6 @@ Untranslated: 270 messages, 3700 words
 * *Help*
 * *Next*
 * *Time*
-* *Цель*
 * *Books*
 * *Close*
 * *Font:*
@@ -227,103 +267,116 @@ Untranslated: 270 messages, 3700 words
 * *Speed*
 * *Visit*
 * *Errors*
+* *Remove*
+* *Target*
 * *Typing*
 * *Zones:*
+* *Bigrams*
 * *Layouts*
 * *Lessons*
-* *Lessons*
-* *Not set*
 * ...
 
 # Spanish
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Estonian
 
 Translated: 336 messages, 4734 words
 
-Untranslated: 16 messages, 141 words
+Untranslated: 22 messages, 285 words
 
 * *GO!*
-* *Цель*
 * *Font:*
-* *Промахи*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Progress*
-* *Биграммы*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* ...
 
 # Persian
 
 Translated: 293 messages, 2950 words
 
-Untranslated: 57 messages, 1903 words
+Untranslated: 63 messages, 2047 words
 
-* *Цель*
 * *Books*
+* *Remove*
+* *Target*
 * *Zones:*
+* *Bigrams*
 * *Syntax:*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Upload data*
+* *ZMK config:*
 * *Sound theme:*
 * *Top accuracy*
 * *Explain charts*
-* *Символы и слои*
 * *Key sounds only*
+* *Symbols & layers*
 * *Repeat each word:*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
 * *Keyboard hardware emulates layout*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
-* *Import typing data previously downloaded in JSON format.*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
 * ...
 
 # Finnish
 
 Translated: 206 messages, 2275 words
 
-Untranslated: 140 messages, 2544 words
+Untranslated: 146 messages, 2688 words
 
 * *GO!*
 * *Time*
-* *Цель*
+* *Remove*
+* *Target*
+* *Bigrams*
 * *Layouts*
 * *Metrics*
 * *Not set*
 * *Syntax:*
-* *Промахи*
+* *Mistypes*
 * *Position*
 * *Practice*
 * *Settings*
-* *Биграммы*
 * *Top speed*
 * *Uncertain*
 * *Characters*
@@ -331,14 +384,13 @@ Untranslated: 140 messages, 2544 words
 * *High Scores*
 * *Multiplayer*
 * *Smoothness:*
-* *Upload data*
 * ...
 
 # Faroese
 
 Translated: 42 messages, 574 words
 
-Untranslated: 302 messages, 4232 words
+Untranslated: 308 messages, 4376 words
 
 * *GO!*
 * *Copy*
@@ -346,7 +398,6 @@ Untranslated: 302 messages, 4232 words
 * *Help*
 * *Next*
 * *Time*
-* *Цель*
 * *Books*
 * *Close*
 * *Font:*
@@ -356,155 +407,182 @@ Untranslated: 302 messages, 4232 words
 * *Visit*
 * *Errors*
 * *Layout*
+* *Remove*
+* *Target*
 * *Typing*
 * *Zones:*
 * *Account*
-* *Layout:*
 * ...
 
 # French
 
 Translated: 331 messages, 4535 words
 
-Untranslated: 21 messages, 340 words
+Untranslated: 27 messages, 484 words
 
-* *Цель*
+* *Remove*
+* *Target*
 * *Zones:*
+* *Bigrams*
 * *Options*
 * *Volume:*
-* *Промахи*
+* *Mistypes*
 * *Position*
-* *Биграммы*
 * *Alphabet:*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Above are listed the longest continuous sequences of lessons...*
-* *When you focus on a new key, it is very likely that the spee...*
-* *The target speed is used to measure the confidence level and...*
 * ...
 
 # Irish
 
 Translated: 335 messages, 4726 words
 
-Untranslated: 17 messages, 149 words
+Untranslated: 23 messages, 293 words
 
-* *Цель*
+* *Remove*
+* *Target*
 * *Zones:*
-* *Промахи*
-* *Биграммы*
+* *Bigrams*
+* *Mistypes*
 * *Smoothness:*
 * *Upload data*
+* *ZMK config:*
 * *Sound theme:*
 * *M|T|W|T|F|S|S*
-* *Символы и слои*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* ...
 
 # Hebrew
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Croatian
 
 Translated: 335 messages, 4731 words
 
-Untranslated: 17 messages, 144 words
+Untranslated: 23 messages, 288 words
 
-* *Цель*
 * *Font:*
 * *Reset*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Multiplayer*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
+* *Symbols & layers*
 * *Premium account price:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* ...
 
 # Hungarian
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Indonesian
 
 Translated: 337 messages, 4735 words
 
-Untranslated: 15 messages, 140 words
+Untranslated: 21 messages, 284 words
 
 * *GO!*
-* *Цель*
+* *Remove*
+* *Target*
+* *Bigrams*
 * *Volume:*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* ...
 
 # Icelandic
 
 Translated: 93 messages, 1733 words
 
-Untranslated: 252 messages, 3084 words
+Untranslated: 258 messages, 3228 words
 
 * *GO!*
 * *Copy*
@@ -512,7 +590,6 @@ Untranslated: 252 messages, 3084 words
 * *Help*
 * *Next*
 * *Time*
-* *Цель*
 * *Books*
 * *Close*
 * *Font:*
@@ -521,120 +598,129 @@ Untranslated: 252 messages, 3084 words
 * *Speed*
 * *Visit*
 * *Errors*
+* *Remove*
+* *Target*
 * *Typing*
 * *Zones:*
 * *Account*
-* *Layouts*
-* *Lessons*
+* *Bigrams*
 * ...
 
 # Italian
 
 Translated: 332 messages, 4729 words
 
-Untranslated: 19 messages, 144 words
+Untranslated: 25 messages, 288 words
 
-* *Цель*
 * *Font:*
 * *Layout*
+* *Remove*
+* *Target*
 * *Account*
+* *Bigrams*
 * *Layout:*
 * *Layouts*
 * *Volume:*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
-* *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
+* ...
 
 # Japanese
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Korean
 
 Translated: 143 messages, 1288 words
 
-Untranslated: 207 messages, 3565 words
+Untranslated: 213 messages, 3709 words
 
 * *Copy*
 * *Done*
 * *Next*
-* *Цель*
 * *Books*
 * *Close*
 * *Font:*
 * *Reset*
 * *Visit*
+* *Remove*
+* *Target*
 * *Typing*
 * *Zones:*
+* *Bigrams*
 * *Lessons*
 * *Not set*
 * *Options*
 * *Preview*
 * *Syntax:*
 * *Volume:*
-* *Промахи*
 * *All keys*
-* *Chapters*
 * ...
 
 # Lithuanian
 
 Translated: 303 messages, 3379 words
 
-Untranslated: 46 messages, 1465 words
+Untranslated: 52 messages, 1609 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
 * *Accuracy Streaks*
+* *Symbols & layers*
 * *Relative Accuracy*
 * *No accuracy streaks.*
-* *Слов между символами:*
 * *Practice numbers only.*
-* *Без букв со слоя (ё, ъ на Corne)*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
 * *The difference from the average value.*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
 * *Download all your typing data in JSON format.*
-* *Import typing data previously downloaded in JSON format.*
-* *The detailed statistics regarding your learning progress.*
-* *Permanently delete all of your typing data and reset statist...*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * ...
 
 # Mongolian
 
 Translated: 16 messages, 378 words
 
-Untranslated: 326 messages, 4399 words
+Untranslated: 332 messages, 4543 words
 
 * *GO!*
 * *Copy*
@@ -643,7 +729,6 @@ Untranslated: 326 messages, 4399 words
 * *Next*
 * *Time*
 * *User*
-* *Цель*
 * *Books*
 * *Close*
 * *Font:*
@@ -656,25 +741,27 @@ Untranslated: 326 messages, 4399 words
 * *Digits*
 * *Errors*
 * *Layout*
+* *Remove*
 * ...
 
 # Norwegian Bokmål
 
 Translated: 209 messages, 2437 words
 
-Untranslated: 138 messages, 2385 words
+Untranslated: 144 messages, 2529 words
 
 * *Done*
 * *Help*
-* *Цель*
 * *Books*
 * *Font:*
 * *Speed*
+* *Remove*
+* *Target*
 * *Account*
-* *Промахи*
+* *Bigrams*
 * *Accuracy*
+* *Mistypes*
 * *Settings*
-* *Биграммы*
 * *Alphabet:*
 * *Examples:*
 * *All sounds*
@@ -683,414 +770,474 @@ Untranslated: 138 messages, 2385 words
 * *Custom text*
 * *Daily goal:*
 * *Smoothness:*
-* *Upload data*
 * ...
 
 # Nepali
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Dutch
 
 Translated: 331 messages, 4727 words
 
-Untranslated: 20 messages, 146 words
+Untranslated: 26 messages, 290 words
 
-* *Цель*
 * *Score*
+* *Remove*
+* *Target*
 * *Zones:*
 * *Account*
+* *Bigrams*
 * *Letters*
 * *Volume:*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Multiplayer*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
 * *Premium account*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
-* *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* ...
 
 # Polish
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Brazilian Portuguese
 
 Translated: 336 messages, 4734 words
 
-Untranslated: 16 messages, 141 words
+Untranslated: 22 messages, 285 words
 
-* *Цель*
 * *Layout*
+* *Remove*
+* *Target*
+* *Bigrams*
 * *Layout:*
 * *Layouts*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* ...
 
 # European Portuguese
 
 Translated: 317 messages, 4609 words
 
-Untranslated: 33 messages, 244 words
+Untranslated: 39 messages, 388 words
 
-* *Цель*
 * *Books*
 * *Layout*
+* *Remove*
+* *Target*
 * *Zones:*
+* *Bigrams*
 * *Layout:*
 * *Layouts*
 * *Volume:*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Top score!*
 * *Top speed!*
 * *Upload data*
+* *ZMK config:*
 * *Sound theme:*
 * *Top accuracy*
 * *Explain charts*
-* *Символы и слои*
 * *Key sounds only*
 * *Average accuracy*
-* *Relative Accuracy*
-* *Repeat each word:*
+* *Symbols & layers*
 * ...
 
 # Romanian
 
 Translated: 296 messages, 3578 words
 
-Untranslated: 49 messages, 1253 words
+Untranslated: 55 messages, 1397 words
 
-* *Цель*
 * *Font:*
 * *Layout*
+* *Remove*
+* *Target*
 * *Zones:*
 * *Account*
+* *Bigrams*
 * *Layout:*
 * *Layouts*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Translate*
 * *Multiplayer*
 * *Upload data*
+* *ZMK config:*
 * *Sound theme:*
 * *Top accuracy*
 * *Forgive errors*
-* *Символы и слои*
 * *Key sounds only*
 * *Average accuracy*
-* *Relative Accuracy*
-* *Repeat each word:*
+* *Symbols & layers*
 * ...
 
 # Russian
 
-Translated: 339 messages, 4737 words
+Translated: 361 messages, 5069 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 3 messages, 13 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
 * *Upload data*
-* *Символы и слои*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
 
 # Slovak
 
 Translated: 338 messages, 4736 words
 
-Untranslated: 14 messages, 139 words
+Untranslated: 20 messages, 283 words
 
-* *Цель*
+* *Remove*
+* *Target*
+* *Bigrams*
 * *Syntax:*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Slovenian
 
 Translated: 338 messages, 4736 words
 
-Untranslated: 14 messages, 139 words
+Untranslated: 20 messages, 283 words
 
-* *Цель*
 * *Font:*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Albanian
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Swedish
 
 Translated: 336 messages, 4734 words
 
-Untranslated: 16 messages, 141 words
+Untranslated: 22 messages, 285 words
 
-* *Цель*
 * *Layout*
+* *Remove*
+* *Target*
+* *Bigrams*
 * *Layout:*
 * *Syntax:*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* ...
 
 # Thai
 
 Translated: 327 messages, 4626 words
 
-Untranslated: 23 messages, 227 words
+Untranslated: 29 messages, 371 words
 
-* *Цель*
+* *Remove*
+* *Target*
 * *Zones:*
-* *Промахи*
-* *Биграммы*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
+* *ZMK config:*
 * *Sound theme:*
 * *Top accuracy*
-* *Символы и слои*
 * *Key sounds only*
 * *Average accuracy*
+* *Symbols & layers*
 * *Relative Accuracy*
 * *Repeat each word:*
-* *Слов между символами:*
 * *Premium account price:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
-* *Import typing data previously downloaded in JSON format.*
-* *This is a histogram of the accuracies of all users, and your...*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
 * ...
 
 # Turkish
 
 Translated: 225 messages, 2117 words
 
-Untranslated: 122 messages, 2703 words
+Untranslated: 128 messages, 2847 words
 
-* *Цель*
 * *Books*
 * *Font:*
+* *Remove*
+* *Target*
 * *Zones:*
+* *Bigrams*
 * *Metrics*
 * *Preview*
 * *Sign-In*
 * *Syntax:*
-* *Промахи*
-* *Биграммы*
+* *Mistypes*
 * *Alphabet:*
 * *Box cursor*
 * *Line cursor*
 * *Source code*
 * *Upload data*
 * *Whitespace:*
+* *ZMK config:*
 * *Block cursor*
 * *Top accuracy*
-* *No whitespace*
-* *Smooth cursor*
 * ...
 
 # Ukrainian
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Vietnamese
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Simplified Chinese
 
 Translated: 338 messages, 4730 words
 
-Untranslated: 14 messages, 145 words
+Untranslated: 20 messages, 289 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
+* *ZMK config:*
 * *M|T|W|T|F|S|S*
-* *Символы и слои*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Traditional Chinese
 
 Translated: 339 messages, 4737 words
 
-Untranslated: 13 messages, 138 words
+Untranslated: 19 messages, 282 words
 
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*
 
 # Chinese (Taiwan)
 
 Translated: 338 messages, 4736 words
 
-Untranslated: 14 messages, 139 words
+Untranslated: 20 messages, 283 words
 
 * *GO!*
-* *Цель*
-* *Промахи*
-* *Биграммы*
+* *Remove*
+* *Target*
+* *Bigrams*
+* *Mistypes*
 * *Upload data*
-* *Символы и слои*
+* *ZMK config:*
 * *Key sounds only*
-* *Слов между символами:*
-* *Без букв со слоя (ё, ъ на Corne)*
-* *Открыть букву при застое через уроков:*
-* *Растущая цель после открытия всех букв*
-* *Адаптивный алгоритм (скорость + точность)*
+* *Symbols & layers*
+* *Words between symbols:*
+* *Upload keymap (.keymap)*
+* *Adaptive algorithm (speed + accuracy)*
+* *Raise the target once all letters are unlocked*
+* *Unlock the next letter after a stall of lessons:*
+* *Skip letters on held layers (like ё, ъ on a Corne)*
 * *Import typing data previously downloaded in JSON format.*
-* *Уверенность по клавише учитывает и скорость, и ошибки. Фокус...*
+* *(no physical layout file, keys on a grid from the keymap)*
+* *Choose a keymap file (.keymap) and optionally a physical lay...*
+* *Choose the keymap file (.keymap) of your ZMK config, optiona...*
+* *Key confidence takes both speed and errors into account. The...*

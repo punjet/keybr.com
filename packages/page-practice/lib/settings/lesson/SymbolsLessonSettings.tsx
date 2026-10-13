@@ -27,7 +27,7 @@ export function SymbolsLessonSettings({
         <Description>
           <FormattedMessage
             id="lessonType.symbols.description"
-            defaultMessage="Цифры и знаки вперемешку со словами: тренирует переключение на слой NUM и обратно. Чаще всего попадаются самые медленные и ошибочные символы. Символов в наборе: {count}."
+            defaultMessage="Digits and punctuation mixed with words: trains switching to a held layer (like NUM on a split keyboard) and back. The slowest and most error-prone symbols appear most often. Symbols in the set: {count}."
             values={{ count: lesson.letters.length }}
           />
         </Description>
@@ -43,7 +43,7 @@ export function SymbolsLessonSettings({
           <Field>
             <FormattedMessage
               id="t_Words_between_symbols:"
-              defaultMessage="Слов между символами:"
+              defaultMessage="Words between symbols:"
             />
           </Field>
           <Field>

@@ -18,10 +18,9 @@ test("use default settings", () => {
 test("read default settings", () => {
   const options = KeyboardOptions.from(new Settings());
 
-  // Personal fork defaults: Russian on the Eyelash Corne.
-  equal(options.language, Language.RU);
-  equal(options.layout, Layout.RU_RU);
-  equal(options.geometry, Geometry.EYELASH_CORNE);
+  equal(options.language, Language.EN);
+  equal(options.layout, Layout.EN_US);
+  equal(options.geometry, Geometry.ANSI_101);
   equal(options.zones, ZoneMod.STANDARD);
 });
 

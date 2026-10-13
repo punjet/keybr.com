@@ -12,6 +12,7 @@ import { KOREAN_103 } from "./geometry/korean_103.ts";
 import { KOREAN_103_FULL } from "./geometry/korean_103_full.ts";
 import { MATRIX } from "./geometry/matrix.ts";
 import { Keyboard } from "./keyboard.ts";
+import { getZmkGeometry } from "./zmk.ts";
 import { Layout } from "./layout.ts";
 import { LAYOUT_AR_SA } from "./layout/ar_sa.ts";
 import { LAYOUT_AR_SA_102 } from "./layout/ar_sa_102.ts";
@@ -268,7 +269,10 @@ function loadImpl(
   zones: ZoneMod = ZoneMod.first(geometry.zones),
 ): Keyboard {
   let characterDict = layouts.get(layout)!;
-  let geometryDict = geometries.get(geometry)!;
+  let geometryDict =
+    geometry === Geometry.ZMK
+      ? (getZmkGeometry()?.dict ?? EYELASH_CORNE)
+      : geometries.get(geometry)!;
   if (layout.mod === nullMod && zones !== ZoneMod.STANDARD) {
     geometryDict = remapZones(geometryDict, zones.mod);
   }

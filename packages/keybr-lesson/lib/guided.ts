@@ -437,16 +437,13 @@ export class GuidedLesson extends Lesson {
    */
   #reachableLetters() {
     const { letters } = this.model;
-    if (
-      !this.settings.get(lessonProps.guided.skipLayerLetters) ||
-      this.#keyboard.getShape("LayerNum") == null
-    ) {
+    if (!this.settings.get(lessonProps.guided.skipLayerLetters)) {
       return letters;
     }
     return letters.filter(({ codePoint }) => {
       const combo = this.#keyboard.getCombo(codePoint);
       const shape = combo != null ? this.#keyboard.getShape(combo.id) : null;
-      return shape?.row !== "digit";
+      return shape?.layer == null;
     });
   }
 

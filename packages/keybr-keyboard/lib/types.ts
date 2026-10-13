@@ -32,10 +32,7 @@ export type SpecialCharacter = { readonly special: CodePoint };
 export type LigatureCharacter = { readonly ligature: string };
 
 export type Character =
-  | CodePoint
-  | DeadCharacter
-  | SpecialCharacter
-  | LigatureCharacter;
+  CodePoint | DeadCharacter | SpecialCharacter | LigatureCharacter;
 
 export type CharacterDict = {
   readonly [id: KeyId]: readonly (Character | null)[];
@@ -51,6 +48,10 @@ export type GeometryDict = {
     readonly shape?: string;
     readonly zones?: readonly ZoneId[];
     readonly homing?: boolean;
+    /** The held layer this key belongs to, the base layer if missing. */
+    readonly layer?: string;
+    /** The layer activated while this key is held. */
+    readonly activates?: string;
   };
 };
 

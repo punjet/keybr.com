@@ -23,7 +23,7 @@ export function AdaptiveProp(): ReactNode {
           <CheckBox
             label={formatMessage({
               id: "t_Adaptive_algorithm",
-              defaultMessage: "Адаптивный алгоритм (скорость + точность)",
+              defaultMessage: "Adaptive algorithm (speed + accuracy)",
             })}
             checked={adaptive}
             onChange={(value) => {
@@ -35,7 +35,8 @@ export function AdaptiveProp(): ReactNode {
           <CheckBox
             label={formatMessage({
               id: "t_Skip_layer_letters",
-              defaultMessage: "Без букв со слоя (ё, ъ на Corne)",
+              defaultMessage:
+                "Skip letters on held layers (like ё, ъ on a Corne)",
             })}
             checked={settings.get(lessonProps.guided.skipLayerLetters)}
             onChange={(value) => {
@@ -49,7 +50,7 @@ export function AdaptiveProp(): ReactNode {
           <CheckBox
             label={formatMessage({
               id: "t_Auto_target_speed",
-              defaultMessage: "Растущая цель после открытия всех букв",
+              defaultMessage: "Raise the target once all letters are unlocked",
             })}
             checked={settings.get(lessonProps.guided.autoTarget)}
             disabled={!adaptive}
@@ -65,7 +66,7 @@ export function AdaptiveProp(): ReactNode {
         <Field>
           <FormattedMessage
             id="t_Stall_lessons:"
-            defaultMessage="Открыть букву при застое через уроков:"
+            defaultMessage="Unlock the next letter after a stall of lessons:"
           />
         </Field>
         <Field>
@@ -90,7 +91,7 @@ export function AdaptiveProp(): ReactNode {
         <Description>
           <FormattedMessage
             id="settings.adaptive.description"
-            defaultMessage="Уверенность по клавише учитывает и скорость, и ошибки. Фокус выбирается по текущему (а не лучшему) результату с поправкой на частоту буквы, поэтому просевшие частые буквы возвращаются в тренировку. Слова берутся из словаря с весом по слабым буквам, без требования фокусной буквы в каждом слове. Если новая буква тренировалась заданное число уроков, а алфавит в среднем на уровне, открывается следующая буква (0 — выключено). Учитываются слабые биграммы и частые промахи (какую клавишу нажимаешь вместо нужной). Когда открыты все буквы, цель становится медианой твоих лучших скоростей по клавишам +5% и растёт вместе с тобой (не ниже заданной)."
+            defaultMessage="Key confidence takes both speed and errors into account. The focused key is chosen by the current (not the best ever) performance weighted by letter frequency, so frequent letters that regressed come back into practice. Words come from the dictionary weighted by weak letters, without requiring the focused letter in every word. Weak bigrams and frequent mistypes (which key you press instead of the right one) are trained too. If the newest letter was practiced for the given number of lessons and the alphabet is good on average, the next letter is unlocked (0 disables this). Once all letters are unlocked, the target becomes the median of your best key speeds +5% and grows with you (never below the configured one)."
           />
         </Description>
       </Explainer>

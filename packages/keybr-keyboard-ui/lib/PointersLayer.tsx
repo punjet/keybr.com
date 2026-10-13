@@ -7,6 +7,7 @@ import {
 import { Tasks } from "@keybr/lang";
 import { type CodePoint } from "@keybr/unicode";
 import { memo, type ReactNode, useEffect, useRef, useState } from "react";
+import { layerActivator } from "./layers.ts";
 import * as styles from "./PointersLayer.module.less";
 import { getKeyCenter, Surface } from "./shapes.tsx";
 
@@ -52,8 +53,8 @@ function pointers(keyboard: Keyboard, combo: KeyCombo | null): ReactNode[] {
     const shape = keyboard.getShape(combo.id);
     if (shape != null) {
       children.unshift(pointer(shape, styles.pointer));
-      const layer = keyboard.getShape("LayerNum");
-      if (layer != null && shape.row === "digit") {
+      const layer = layerActivator(keyboard, shape);
+      if (layer != null) {
         // Split keyboards reach digits and symbols through a held layer key.
         children.unshift(pointer(layer, styles.modifierPointer));
       }

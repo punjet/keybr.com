@@ -77,7 +77,7 @@ export function LessonSettings(): ReactNode {
         <Tab
           label={formatMessage({
             id: "t_Symbols_and_layers",
-            defaultMessage: "Символы и слои",
+            defaultMessage: "Symbols & layers",
           })}
         />
       </TabList>

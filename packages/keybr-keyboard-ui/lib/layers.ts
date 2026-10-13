@@ -6,13 +6,25 @@ import { type Keyboard, type KeyId, type KeyShape } from "@keybr/keyboard";
  */
 export type LayerMode = "hide" | "overlay";
 
-/**
- * Whether the shape is a key of a held layer. Such geometries have a
- * `LayerNum` thumb key and put layer keys on the positions of the base keys,
- * marking them by the "digit" row zone.
- */
-export function isLayerShape(keyboard: Keyboard, shape: KeyShape): boolean {
-  return shape.row === "digit" && keyboard.getShape("LayerNum") != null;
+/** Whether the shape is a key of a held layer, not of the base layer. */
+export function isLayerShape(_keyboard: Keyboard, shape: KeyShape): boolean {
+  return shape.layer != null;
+}
+
+/** The key which activates the layer of the given shape while held. */
+export function layerActivator(
+  keyboard: Keyboard,
+  shape: KeyShape,
+): KeyShape | null {
+  if (shape.layer == null) {
+    return null;
+  }
+  for (const other of keyboard.shapes.values()) {
+    if (other.activates === shape.layer) {
+      return other;
+    }
+  }
+  return null;
 }
 
 /** Maps every layer key to the physical base key at the same position. */

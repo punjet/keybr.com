@@ -4,12 +4,13 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { test } from "node:test";
-import { Geometry, Language, Layout, loadKeyboard } from "@keybr/keyboard";
+import { Geometry, Layout, loadKeyboard } from "@keybr/keyboard";
 import { loadModelSync } from "@keybr/phonetic-model/lib/fs-load.ts";
 import { LCG } from "@keybr/rand";
 import { makeKeyStatsMap, Result, TextType } from "@keybr/result";
 import { Settings } from "@keybr/settings";
 import { Histogram } from "@keybr/textinput";
+import { effectiveConfidence } from "../lib/adaptive.ts";
 import { geometryDifficulty } from "../lib/bigrams.ts";
 import { GuidedLesson } from "../lib/guided.ts";
 import { lessonProps } from "../lib/settings.ts";
@@ -28,19 +29,31 @@ test("compare generated texts", () => {
         new Histogram(r.histogram),
       ),
   );
-  const keyboard = loadKeyboard(Layout.RU_RU, Geometry.EYELASH_CORNE);
-  const { model } = loadModelSync(Language.RU);
+  const layout = results[0].layout;
+  const keyboard = loadKeyboard(layout, Geometry.EYELASH_CORNE);
+  const { model } = loadModelSync(layout.language);
   const words = JSON.parse(
     readFileSync(
       resolve(
         import.meta.dirname,
-        "../../keybr-content-words/lib/data/words-ru.json",
+        `../../keybr-content-words/lib/data/words-${layout.language.id}.json`,
       ),
       "utf8",
     ),
   );
-  // The weakest keys by speed and errors in the data: и с м я к у.
-  const weak = new Set([..."исмяку"]);
+  // The six weakest unlocked keys by speed and errors in the data.
+  const probe = new GuidedLesson(new Settings(), keyboard, model, words);
+  const weak = new Set(
+    probe
+      .update(makeKeyStatsMap(probe.letters, results))
+      .findIncludedKeys()
+      .sort(
+        (a, b) => (effectiveConfidence(a) ?? 0) - (effectiveConfidence(b) ?? 0),
+      )
+      .slice(0, 6)
+      .map(({ letter }) => letter.label.toLowerCase()),
+  );
+  console.log("weak keys:", [...weak].join(" "));
   for (const adaptive of [false, true]) {
     const lesson = new GuidedLesson(
       new Settings().set(lessonProps.guided.adaptive, adaptive),
@@ -48,9 +61,7 @@ test("compare generated texts", () => {
       model,
       words,
     );
-    const lessonKeys = lesson.update(
-      makeKeyStatsMap(lesson.letters, results),
-    );
+    const lessonKeys = lesson.update(makeKeyStatsMap(lesson.letters, results));
     const rng = LCG(7);
     let letters = 0;
     let weakLetters = 0;
@@ -86,7 +97,7 @@ test("compare generated texts", () => {
         ` (${((unique / all.length) * 100).toFixed(0)}%)` +
         ` weakLetters=${((weakLetters / letters) * 100).toFixed(1)}%` +
         ` hardPairs=${((hardPairs / pairs) * 100).toFixed(1)}%` +
-        ` и=${share("и")}% с=${share("с")}% м=${share("м")}% я=${share("я")}% к=${share("к")}%` +
+        ` ${[...weak].map((c) => `${c}=${share(c)}%`).join(" ")}` +
         ` avgLen=${(letters / all.length).toFixed(1)}`,
     );
   }

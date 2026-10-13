@@ -5,7 +5,7 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { test } from "node:test";
-import { Geometry, Language, Layout, loadKeyboard } from "@keybr/keyboard";
+import { Geometry, Layout, loadKeyboard } from "@keybr/keyboard";
 import { loadModelSync } from "@keybr/phonetic-model/lib/fs-load.ts";
 import { LCG } from "@keybr/rand";
 import { makeKeyStatsMap, Result, TextType } from "@keybr/result";
@@ -30,13 +30,14 @@ test("replay user data", () => {
         new Histogram(r.histogram),
       ),
   );
-  const keyboard = loadKeyboard(Layout.RU_RU, Geometry.EYELASH_CORNE);
-  const { model } = loadModelSync(Language.RU);
+  const layout = results[0].layout;
+  const keyboard = loadKeyboard(layout, Geometry.EYELASH_CORNE);
+  const { model } = loadModelSync(layout.language);
   const words = JSON.parse(
     readFileSync(
       resolve(
         import.meta.dirname,
-        "../../keybr-content-words/lib/data/words-ru.json",
+        `../../keybr-content-words/lib/data/words-${layout.language.id}.json`,
       ),
       "utf8",
     ),

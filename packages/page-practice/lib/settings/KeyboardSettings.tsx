@@ -2,6 +2,7 @@ import { useCollator } from "@keybr/intl";
 import {
   Emulation,
   Geometry,
+  getZmkConfig,
   KeyboardOptions,
   keyboardProps,
   Language,
@@ -26,6 +27,7 @@ import {
 } from "@keybr/widget";
 import { memo, type ReactNode, useEffect, useState } from "react";
 import { FormattedMessage, useIntl } from "react-intl";
+import { ZmkConfigProp } from "./ZmkConfigProp.tsx";
 
 export function KeyboardSettings(): ReactNode {
   const { formatMessage } = useIntl();
@@ -38,6 +40,7 @@ export function KeyboardSettings(): ReactNode {
         })}
       >
         <LayoutProp />
+        <ZmkConfigProp />
       </FieldSet>
       <FieldSet
         legend={formatMessage({
@@ -192,7 +195,10 @@ function GeometryProp(): ReactNode {
           <OptionList
             options={options.selectableGeometries().map((item) => ({
               value: item.id,
-              name: item.name,
+              name:
+                item === Geometry.ZMK
+                  ? `ZMK: ${getZmkConfig()?.name ?? item.name}`
+                  : item.name,
             }))}
             value={options.geometry.id}
             onSelect={(id) => {
