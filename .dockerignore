@@ -1,4 +1,4 @@
-.git
+# .git stays in the context: the compile step (lage) runs git.
 **/node_modules
 **/.types
 root/public/assets
